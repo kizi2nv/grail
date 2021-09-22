@@ -41,7 +41,7 @@ const Footer = class extends React.Component {
                           </p>
           </div>
             </div>
-            <div>  
+            <div className="classsess">  
             <div  >
               <div className=" okii">
               <div >

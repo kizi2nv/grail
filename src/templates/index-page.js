@@ -50,16 +50,7 @@ const IndexPage = ({ data }) => {
       <BlogRoll />
       </div>
     </Layout>
-    <IndexPageTemplate
-        image={frontmatter.image}
-        title={frontmatter.title}
-        heading={frontmatter.heading}
-        subheading={frontmatter.subheading}
-        mainpitch={frontmatter.mainpitch}
-        description={frontmatter.description}
-        intro={frontmatter.intro}
-        
-      />
+   
     
     </div>
   )

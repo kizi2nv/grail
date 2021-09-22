@@ -2,7 +2,12 @@
   display: flex;
   justify-content: space-evenly;
 }
-
+.middle p {
+  a {
+    color: #d72405;
+    text-decoration: underline;
+  }
+}
 .news {
   background-color: #201e1e;
   color: #f8f9fa;
@@ -131,10 +136,10 @@
 // navbar
 @media screen and (max-width: 1023px) {
   .navbar-menu {
-    background-color: rgb(5, 5, 5) !important;
-
+    background-color: #05050500 !important;
     padding: 0.5rem 0;
   }
+
   .navbar-item,
   .navbar-link {
     line-height: 1;
@@ -143,7 +148,7 @@
     font-size: medium;
   }
   .mine {
-    margin-left: 5rem !important;
+    margin-left: 0.1rem !important;
     font-size: larger;
     font-weight: 500;
     text-decoration: none;
@@ -254,8 +259,7 @@
 
 @media screen and (max-width: 603px) {
   .navbar-menu {
-    background-color: rgb(5, 5, 5) !important;
-
+    background-color: #05050500 !important;
     padding: 0.5rem 0;
   }
   .navbar-item,
@@ -266,14 +270,14 @@
     font-size: medium;
   }
   .mine {
-    margin-left: 5rem !important;
+    margin-left: 0.1rem !important;
     font-size: larger;
     font-weight: 500;
     text-decoration: none;
   }
   // banner
   .header__bg-container {
-    height: 17em;
+    height: 16em;
   }
   .fig img {
     width: 10.5em;
@@ -307,5 +311,160 @@
   }
   .logos {
     height: 4em !important;
+  }
+}
+
+@media screen and (max-width: 454px) {
+  .navbar-menu {
+    background-color: #05050500 !important;
+    padding: 0.5rem 0;
+  }
+  .cont_1 {
+    width: 18%;
+  }
+  .grill {
+    font-size: inherit;
+    padding-top: 1em;
+    color: white;
+  }
+  .navbar-item,
+  .navbar-link {
+    line-height: 1;
+    padding: 0.3rem 0.5rem;
+    position: relative;
+    font-size: medium;
+  }
+  .mine {
+    margin-left: 0.1rem !important;
+    font-size: larger;
+    font-weight: 500;
+    text-decoration: none;
+  }
+  // banner
+  .header__bg-container {
+    height: 10em;
+  }
+  .fig img {
+    width: 6.5em;
+    padding-top: 0.2em;
+  }
+  .pull_down {
+    padding-top: 2em;
+    p {
+      margin-top: 0;
+      margin-bottom: 0.5rem;
+    }
+  }
+  .hear {
+    color: #eeebe5;
+    font-size: 1.4em;
+    font-family: serif;
+    margin: -0.5em;
+  }
+  .voice {
+    color: brown;
+    font-size: 1em;
+  }
+
+  .consult {
+    padding-right: 0.6em;
+    a {
+      color: white;
+      font-size: 0.8em;
+      text-decoration: none;
+      font-family: auto;
+      font-weight: bold;
+      border: 0.1em solid #4b1c23;
+      border-radius: 5em;
+      padding: 0.5em;
+    }
+  }
+
+  .firm {
+    font-size: 1.2rem;
+  }
+
+  .headline {
+    font-size: 1.4em;
+  }
+
+  .content-block-bg__content p {
+    font-size: medium;
+  }
+  .bgr .t {
+    color: white;
+    font: 1.4em san-serif;
+    justify-content: center;
+    text-align: center;
+    font-style: oblique;
+  }
+  .content-block-bg__content .wp-block-quote p {
+    color: #4b1c23;
+    padding-left: 0.6em;
+    margin-bottom: 0.5em;
+    font-size: 1.6em;
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+  }
+  .social {
+    padding: 0.1em;
+  }
+
+  //footer
+  .footer {
+    display: flex;
+    flex-direction: row;
+    padding: 0.5rem 0.5rem 0.3rem !important;
+    background-color: black !important;
+    .classsess {
+      padding-top: 5em;
+    }
+  }
+  .logos {
+    height: 8em !important;
+  }
+  .arean-main h3 {
+    color: #ffffff;
+    padding-left: 0.3em;
+    font-size: 2.5em;
+  }
+  .flexy .push figure {
+    width: 14em;
+    box-shadow: -2em -1.5em #4b1c23;
+  }
+  .flexy .f6 {
+    font-size: 1.5rem;
+  }
+
+  .f7 {
+    font-size: 2.3em;
+    font-family: emoji;
+  }
+  .middle p {
+    font-size: 1.4em;
+    a {
+      color: #d72405;
+      text-decoration: underline;
+    }
+  }
+
+  .headline {
+    font-size: 1.5em;
+  }
+  .zola {
+    p {
+      font-size: inherit;
+    }
+  }
+  .zola {
+    justify-content: center;
+    text-align: center;
+    font-size: inherit;
+  }
+}
+.content-block-bg__content {
+  a {
+    color: #fd3c0d !important;
+    text-decoration: underline;
   }
 }
