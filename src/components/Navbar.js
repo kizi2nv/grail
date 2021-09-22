@@ -1,8 +1,8 @@
 import React from 'react'
 import { Link } from 'gatsby'
-import github from '../img/github-icon.svg'
-import logo from '../img/logo.svg'
+import logo from '../img/app.png'
 import './mine.css'
+
 
 const Navbar = class extends React.Component {
   constructor(props) {
@@ -36,50 +36,59 @@ const Navbar = class extends React.Component {
   render() {
     return (
       <nav
-        className="navbar is-transparent"
+        className=" marg is-transparent"
         role="navigation"
         aria-label="main-navigation"
       >
-        <div className="container">
-          <div className="navbar-brand">
-            <Link to="/" className="navbar-item" title="Logo">
-              <img src={logo} alt="Kaldi" style={{ width: '88px' }} />
+        <div className="cont">
+          <div className=" cont_1">
+            <Link to="/" className="ai" title="Logo">
+              <img src={logo} alt="Kaldi" style={{ width: '75px' }} />
+              <h3 className="grill"> Grail<span className="att">Attorneys</span> </h3>
             </Link>
+            </div>
+            <div className="conti_2">
             {/* Hamburger menu */}
-            <div
+            <button
               className={`navbar-burger burger ${this.state.navBarActiveClass}`}
               data-target="navMenu"
-              onClick={() => this.toggleHamburger()}
+              onClick={() => this.toggleHamburger()} 
+              onKeyDown={() => this.toggleHamburger()}   
             >
               <span />
               <span />
               <span />
-            </div>
-          </div>
+            </button>
+          
           <div
             id="navMenu"
             className={`navbar-menu ${this.state.navBarActiveClass} mine `}
             
           >
             <div className="navbar-start has-text-centered">
-              <Link className="navbar-item" to="/about">
-                About
+            <Link className="navbar-item" to="/">
+                Home
               </Link>
+              <Link className="navbar-item" to="/team/tobi/tobi">
+               Meet Tobi
+              </Link>
+              
               <Link className="navbar-item" to="/products">
-                Products
+                Practice areas
               </Link>
-              <Link className="navbar-item" to="/blog">
-                Blog
+              <Link className="navbar-item" to="/team/partners/partners_home">
+                Partners
               </Link>
               <Link className="navbar-item" to="/contact">
                 Contact
               </Link>
-              <Link className="navbar-item" to="/contact/examples">
-                Form Examples
+              <Link className="navbar-item" to="/blog">
+                Blog
               </Link>
             </div>
             
           </div>
+        </div>
         </div>
       </nav>
     )

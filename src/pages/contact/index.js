@@ -1,6 +1,7 @@
 import React from 'react'
 import { navigate } from 'gatsby-link'
 import Layout from '../../components/Layout'
+import ContactForm  from '../../components/home/form'
 
 function encode(data) {
   return Object.keys(data)
@@ -29,7 +30,7 @@ export default class Index extends React.Component {
         ...this.state,
       }),
     })
-      .then(() => navigate(form.getAttribute('action')))
+      .then(() => navigate("/contact/thanks/"))
       .catch((error) => alert(error))
   }
 
@@ -109,6 +110,7 @@ export default class Index extends React.Component {
             </div>
           </div>
         </section>
+        <ContactForm/>
       </Layout>
     )
   }

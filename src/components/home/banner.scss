@@ -1,0 +1,311 @@
+.banner_display {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.news {
+  background-color: #201e1e;
+  color: #f8f9fa;
+  padding-left: 1em;
+}
+.fig {
+  img {
+    width: 22em;
+    padding-top: 2.2em;
+  }
+}
+
+.pull_down {
+  padding-top: 10em;
+}
+.hear {
+  color: rgb(238, 235, 229);
+  font-size: 5.5em;
+  font-family: serif;
+  margin: -0.5em;
+}
+.voice {
+  color: brown;
+  font-size: 3em;
+}
+.consult {
+  text-decoration: underline;
+  color: #4b1c23;
+  a {
+    color: white;
+    font-size: 2em;
+    text-decoration: none;
+    font-family: auto;
+    font-weight: bold;
+    border: 0.1em solid #4b1c23;
+    border-radius: 5em;
+    padding: 0.5em;
+  }
+}
+//crime style
+
+.firm {
+  font-family: revert;
+  font-weight: 450;
+  line-height: 1.4;
+  margin-top: 0;
+  margin-bottom: 0.5em;
+  text-align: center !important;
+  text-transform: uppercase !important;
+  color: #4b1c23;
+  font-size: 1.7rem;
+}
+.content-block-bg__content {
+  p {
+    font-size: x-large;
+  }
+  .wp-block-quote p {
+    color: #4b1c23;
+    padding-left: 0.6em;
+    margin-bottom: 0.5em;
+    font-size: 2.4em;
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+  }
+  .quote {
+    border-left: 2px solid #4b1c23;
+  }
+}
+.headline {
+  font-size: 3.2em;
+}
+
+// practice Areas
+
+.arean-main {
+  background-color: #4b1c23;
+  h3 {
+    color: #ffffff;
+    padding-left: 1em;
+    font-size: 4em;
+  }
+}
+.area_bg {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  text-transform: uppercase !important;
+  background-image: url("./b.jpg");
+  height: 38em;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  //all tags
+  .a {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: #f74a04;
+    font-weight: bolder;
+    font-size: 1.8em;
+    text-decoration: none;
+    padding: 1.3em;
+    padding-top: 7em;
+    text-align: center;
+    line-height: 29px;
+    font-family: inherit;
+
+    width: 10em;
+    background-color: #f5dcdc30;
+
+    a {
+      color: black;
+    }
+  }
+}
+.read {
+  border-top: 3.5px solid #4b1c23;
+  padding-top: 0.51em;
+  margin: 0.51em;
+  font-size: small;
+  font-style: oblique;
+}
+
+//media response
+
+// navbar
+@media screen and (max-width: 1023px) {
+  .navbar-menu {
+    background-color: rgb(5, 5, 5) !important;
+
+    padding: 0.5rem 0;
+  }
+  .navbar-item,
+  .navbar-link {
+    line-height: 1;
+    padding: 0.3rem 0.5rem;
+    position: relative;
+    font-size: medium;
+  }
+  .mine {
+    margin-left: 5rem !important;
+    font-size: larger;
+    font-weight: 500;
+    text-decoration: none;
+  }
+  // banner
+  .header__bg-container {
+    height: 20em;
+  }
+  .fig img {
+    width: 13.3em;
+    padding-top: 0.2em;
+  }
+  .pull_down {
+    padding-top: 4em;
+  }
+  .hear {
+    color: #eeebe5;
+    font-size: 2em;
+    font-family: serif;
+    margin: -0.5em;
+  }
+  .voice {
+    color: brown;
+    font-size: 1.5em;
+  }
+  .consult a {
+    color: white;
+    font-size: 1.5em;
+    text-decoration: none;
+    font-family: auto;
+    font-weight: bold;
+    border: 0.1em solid #4b1c23;
+    border-radius: 5em;
+    padding: 0.5em;
+  }
+  .headline {
+    font-size: 2.5em;
+  }
+  .firm {
+    font-size: 1.5rem;
+  }
+  .content-block-bg__content p {
+    font-size: large;
+  }
+  .content-block-bg__content .wp-block-quote p {
+    color: #4b1c23;
+    padding-left: 0.6em;
+    margin-bottom: 0.5em;
+    font-size: 1.9em;
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+  }
+  .arean-main h3 {
+    color: #ffffff;
+    padding-left: 1em;
+    font-size: 3.5em;
+  }
+  .area_bg {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-transform: uppercase !important;
+    background-image: url("./b.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: fit-content;
+  }
+  .area_bg .a {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: #ff0202;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 0.3em;
+    padding-top: 1em;
+    text-align: center;
+    line-height: 29px;
+    font-family: inherit;
+    width: 100%;
+    background-color: #110b0b30;
+  }
+  .flexy {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 25%;
+  }
+  .carousel {
+    padding-top: 2.6em;
+    position: relative;
+  }
+  .carousel-control-prev {
+    padding-bottom: 7em;
+    left: 0;
+  }
+  .carousel-control-next {
+    padding-bottom: 7em;
+    right: 0;
+  }
+  .footer .grl {
+    color: white;
+    padding-top: 1.5em;
+    font-size: larger;
+  }
+}
+
+@media screen and (max-width: 603px) {
+  .navbar-menu {
+    background-color: rgb(5, 5, 5) !important;
+
+    padding: 0.5rem 0;
+  }
+  .navbar-item,
+  .navbar-link {
+    line-height: 1;
+    padding: 0.3rem 0.5rem;
+    position: relative;
+    font-size: medium;
+  }
+  .mine {
+    margin-left: 5rem !important;
+    font-size: larger;
+    font-weight: 500;
+    text-decoration: none;
+  }
+  // banner
+  .header__bg-container {
+    height: 17em;
+  }
+  .fig img {
+    width: 10.5em;
+    padding-top: 0.2em;
+  }
+  .pull_down {
+    padding-top: 4em;
+  }
+  .hear {
+    color: #eeebe5;
+    font-size: 2em;
+    font-family: serif;
+    margin: -0.5em;
+  }
+  .voice {
+    color: brown;
+    font-size: 1.5em;
+  }
+  .consult a {
+    color: white;
+    font-size: 1em;
+    text-decoration: none;
+    font-family: auto;
+    font-weight: bold;
+    border: 0.1em solid #4b1c23;
+    border-radius: 5em;
+    padding: 0.5em;
+  }
+  .headline {
+    font-size: 1.5em;
+  }
+  .logos {
+    height: 4em !important;
+  }
+}

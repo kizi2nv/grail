@@ -1,0 +1,21 @@
+.partner_main {
+  display: flex;
+  flex-direction: row;
+  margin: 2em;
+  border-radius: 1em;
+  background-color: brown;
+  .partner_div {
+    padding: 0.7em;
+    background-color: rgba(49, 3, 3, 0.801);
+    figure {
+      margin: 0;
+    }
+  }
+  .partner_descrpt {
+    padding: 0.7em;
+    align-self: center;
+    background-color: brown;
+    color: white;
+    padding-top: 2em;
+  }
+}

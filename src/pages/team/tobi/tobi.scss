@@ -1,0 +1,75 @@
+.site_co {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  margin-bottom: 0;
+}
+.breadcrumbs {
+  padding-top: 2em;
+}
+.team {
+  .give {
+    padding-top: 1em;
+  }
+}
+.bio-page__sidebar-content {
+  padding-top: 2em;
+}
+header {
+  a {
+    color: beige;
+  }
+  .header-single-team__content {
+    display: flex;
+    background-color: #4b1c23;
+    color: white;
+  }
+  h3 {
+    color: bisque;
+  }
+
+  .ol {
+    margin-top: 3.3em;
+    font-size: x-large;
+  }
+  .oiy {
+    font-size: x-large;
+  }
+}
+.oiy {
+  font-size: x-large;
+  font-weight: 500;
+}
+.ahh {
+  font-size: 1.3em;
+}
+.bio-page__sidebar {
+  a {
+    color: #4b1c23;
+    font-size: 1em;
+    font-weight: bold;
+  }
+}
+.bg_content {
+  background-color: #1d0f1167;
+}
+//media response
+// tobi
+@media screen and (max-width: 1023px) {
+  .header-single-team__content {
+    display: flex;
+    flex-direction: column;
+    background-color: #4b1c23;
+    color: white;
+  }
+  .flexy .push {
+    align-self: center;
+    margin: 2em;
+    padding-left: 0.2em !important;
+  }
+  header .ol {
+    margin-bottom: 1.3em;
+    margin-top: 0.02em;
+    font-size: x-large;
+  }
+}
