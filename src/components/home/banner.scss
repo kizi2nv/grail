@@ -148,6 +148,11 @@
     padding: 0.5rem 0;
   }
 
+  .grill {
+    padding-top: 0.1em;
+    color: white;
+  }
+
   .navbar-item,
   .navbar-link {
     line-height: 1;
@@ -320,6 +325,11 @@
   .logos {
     height: 4em !important;
   }
+  .adi {
+    display: flex;
+    flex-direction: column;
+    padding-top: 3.5em;
+  }
 }
 
 @media screen and (max-width: 454px) {
@@ -337,7 +347,7 @@
   }
   .grill {
     font-size: inherit;
-    padding-top: 4em;
+    padding-top: 1em;
     color: white;
   }
   .navbar-item,
@@ -399,6 +409,7 @@
 
   .headline {
     font-size: 1.4em;
+    padding-bottom: 1em;
   }
 
   .content-block-bg__content p {
@@ -421,7 +432,7 @@
   }
   .social {
     padding: 0.1em;
-    margin-left: 2em;
+    margin-left: 0.3em;
   }
 
   //footer
@@ -474,5 +485,12 @@
     justify-content: center;
     text-align: center;
     font-size: 0.9em;
+  }
+  .review-car__autor {
+    font-size: medium;
+  }
+
+  .mt-3 {
+    margin-top: 0.3rem !important;
   }
 }
