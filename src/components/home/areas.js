@@ -1,5 +1,6 @@
 import React from 'react'
 import Fade from "react-reveal/Fade"
+import { Link } from 'gatsby'
 
 const Areas = () => (
 
@@ -24,9 +25,9 @@ const Areas = () => (
                           Crimes          
                     </div>
 							
-                    <a className="read" href="/practice-areas/drug-crimes/">
+                   < Link to="/products" className="read">
                             Read More...
-                    </a>
+                    </ Link>
                 </div>
             </div>
             <div className="drug a">
@@ -35,9 +36,9 @@ const Areas = () => (
                                    Drug<br/>
                                    Crimes              
                                 </div>
-				                <a className="read" href="/practice-areas/drug-crimes/">
-                                   Read More...
-                                </a>
+				                < Link to="/products" className="read">
+                            Read More...
+                    </ Link>
                              </div>
                         </div>
             <div className="theft a" >
@@ -46,9 +47,9 @@ const Areas = () => (
                                  Theft / Property<br/>
                                     Crimes              
                             </div>
-						    <a className="read" href="/practice-areas/drug-crimes/">
-                                Read More...
-                                </a>
+						    < Link to="/products" className="read">
+                            Read More...
+                    </ Link>
                          </div>
                         </div>
             <div className="oui a" >
@@ -57,7 +58,9 @@ const Areas = () => (
                                  OUI / Motor<br/>
                                  Vehicle Offenses        
                         </div>
-						<a className="read" href="/practice-areas/drug-crimes/">Read More...</a>
+						< Link to="/products" className="read">
+                            Read More...
+                    </ Link>
                     </div>
                     </div>
                     
@@ -67,7 +70,10 @@ const Areas = () => (
                                 Public Order<br/>
                                 Offenses           
                             </div>
-							<a className="read" href="/practice-areas/drug-crimes/">Read More...</a>
+                          
+                            < Link to="/products" className="read">
+                            Read More...
+                    </ Link>
                          </div>
                     </div>
                     
