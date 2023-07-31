@@ -1,8 +1,8 @@
 ---
 templateKey: blog-post
 title: This blog can be edited
-date: 2016-12-17T15:04:10.000Z
-description: "A brief  description "
+date: 2023-07-31T13:30:22.305Z
+description: A brief  description  testing the effects of CMS
 featuredpost: false
 featuredimage: /img/flavor_wheel.jpg
 tags:
