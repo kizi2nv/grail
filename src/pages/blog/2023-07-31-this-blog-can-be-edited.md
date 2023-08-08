@@ -1,13 +1,8 @@
 ---
 templateKey: blog-post
 title: This blog can be edited
-<<<<<<< HEAD
-date: 2016-12-17T15:04:10.000Z
-description: "A brief  description "
-=======
-date: 2023-07-31T13:30:22.305Z
+date: 2023-07-31T13:32:37.674Z
 description: A brief  description  testing the effects of CMS
->>>>>>> 837412ad2dcada95ee9e337c22cb02564dbbf71c
 featuredpost: false
 featuredimage: /img/flavor_wheel.jpg
 tags:
