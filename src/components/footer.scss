@@ -1,0 +1,67 @@
+.footer {
+  display: flex;
+  flex-direction: row;
+  padding: 1rem 1.2rem 1rem !important;
+  background-color: black !important;
+
+  .logos {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .grl {
+    color: white;
+    padding-top: 1.5em;
+    span {
+      color: brown;
+    }
+  }
+
+  address {
+    margin-bottom: 1rem;
+    font-style: normal;
+    line-height: inherit;
+  }
+  .wdt {
+    width: 50%;
+  }
+  .sr-only {
+    border: 0;
+    clip: rect(0, 0, 0, 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+  }
+  .adi {
+    display: flex;
+    flex-direction: column;
+  }
+  .okii {
+    display: flex;
+    flex-direction: row;
+  }
+  p {
+    a {
+      color: white;
+    }
+  }
+}
+
+ol,
+ul {
+  padding-left: 0.1rem !important;
+}
+.zola {
+  background-color: rgba(24, 23, 23, 0.836);
+  color: white;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 1.2em;
+  a {
+    color: white;
+  }
+}
