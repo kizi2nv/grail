@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-title: This blog can be edited
+title: s blog can be edited
 <<<<<<< HEAD
 date: 2016-12-17T15:04:10.000Z
 description: "A brief  description "
