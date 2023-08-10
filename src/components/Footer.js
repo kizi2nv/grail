@@ -24,9 +24,8 @@ const Footer = class extends React.Component {
               <span itemProp="address" itemScope="" itemType="http://schema.org/PostalAddress">
               <span itemProp="streetAddress">225 address St., Suite 2B</span><br/>
               <span itemProp="addressLocality">Unuahia</span>,
-              <span itemProp="addressRegion">Abia State</span>
-              <span itemProp="addressRegion">Nigeria</span>
-              <span itemProp="postalCode">P.O Box</span>
+              <span itemProp="addressRegion">Abia State </span>
+              <span itemProp="postalCode"> P.O Box</span>
             </span>            
           </address>
           <p>
