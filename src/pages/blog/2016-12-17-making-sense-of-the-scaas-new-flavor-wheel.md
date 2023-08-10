@@ -1,5 +1,5 @@
 ---
-templateKey: wahala post
+templateKey: blog-post
 title: Another Blogger blog
 date: 2017-01-04T15:04:10.000Z
 description: |
