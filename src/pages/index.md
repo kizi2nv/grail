@@ -2,11 +2,11 @@
 templateKey: index-page
 title: This is Barrister Tobi igho Website..😎
 image: /img/home-jumbotron.jpg
-heading: SITE WORK IN PROGRESS, WE I'LL GET BACK TO HER
-subheading: We will get back to you with love😍
+heading: Absolute WORK IN PROGRESS, WE I'LL GET BACK TO HER
+subheading: " will get back to you with love😍"
 mainpitch:
   title: Why Kaldi
-  description: "The site is still under construction "
+  description: The site is still under work
 description: Kaldi is the ultimate spot for coffee lovers who want to learn
   about their java’s origin and support the farmers that grew it. We take coffee
   production, roasting and brewing seriously and we’re glad to pass that
