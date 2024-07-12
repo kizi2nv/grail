@@ -21,7 +21,7 @@ const Banner = () => (
                 <div className="pull_down">  
                  
                     <div className="hear" >
-                                                        WE HEAR YOU    
+                                                        WE HEAR YOU    (testing Git push)
                     </div>
                  
                     <p className="voice"  >

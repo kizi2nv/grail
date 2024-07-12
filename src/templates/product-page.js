@@ -33,7 +33,7 @@ export const ProductPageTemplate = ({
           borderRadius:'2em'
         }}
       >
-        {title}
+        {title} 
       </h2>
       
     </div>
