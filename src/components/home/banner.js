@@ -21,7 +21,7 @@ const Banner = () => (
                 <div className="pull_down">  
                  
                     <div className="hear" >
-                                                        WE HEAR YOU    (testing Git push)
+                                                        WE HEAR YOU
                     </div>
                  
                     <p className="voice"  >
@@ -32,7 +32,7 @@ const Banner = () => (
                     <Link to="/contact" className="ai" title="contact">
                     <div className="consult">
                     <a href="/contact">
-                                                     REQUEST no CONSULTATION  
+                                                     REQUEST A CONSULTATION  
                     </a>
                     </div>
                     </Link>
