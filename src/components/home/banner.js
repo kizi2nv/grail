@@ -32,7 +32,7 @@ const Banner = () => (
                     <Link to="/contact" className="ai" title="contact">
                     <div className="consult">
                     <a href="/contact">
-                                                     REQUEST A CONSULTATION  
+                                                     REQUEST no CONSULTATION  
                     </a>
                     </div>
                     </Link>
