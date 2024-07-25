@@ -59,7 +59,7 @@ class  SlideBanner extends React.Component{
        <h3> hello lets put this words here</h3> 
       </Fade>
       <Fade left>
-      <p> The text to follow</p>
+      <p> The text to followww</p>
       </Fade>
       </div>  
     </Carousel.Item>
