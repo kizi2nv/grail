@@ -20,12 +20,8 @@ body {
 .header-container {
   position: relative;
   background-color: #000;
-  background-image: radial-gradient(
-    95% 100% at bottom,
-    #96969673 0.01%,
-    #000 45%
-  );
-  background-color: black;
+  background-image: radial-gradient(95% 100% at bottom, white 0.01%, white 45%);
+  background-color: #b19d9d;
   background-position: right;
   background-repeat: no-repeat;
   background-size: contain;

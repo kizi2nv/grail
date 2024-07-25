@@ -6,6 +6,7 @@ import Describe from '../components/home/describe'
 import Meet from '../components/home/meet'
 import '../components/home/home.css'
 import Banner from '../components/home/banner'
+import SlideBanner from '../components/home/slide_banner'
 
 
  const IndexBody = () => (
@@ -15,14 +16,11 @@ import Banner from '../components/home/banner'
 	    <main id="main" className="site-main" role="main">
 		    <article id="post-2" className="post-2 page type-page status-publish hentry">
 			    <div className="entry-content">            
-            <div className='header__bg-container'>     
-            <Banner/>
-            </div>
+            <SlideBanner/>  
             <Crime/> 
             <Describe/> 
             <Areas/>
-            <Meet/>
-            <Carousel/>
+            <Carousel/> 
 			    </div>
 		    </article>
 	    </main>

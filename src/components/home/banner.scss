@@ -1,3 +1,10 @@
+//corrected navigation bar grail
+
+.grill {
+  padding-top: 0.1em;
+  color: black !important;
+}
+
 .banner_display {
   display: flex;
   justify-content: space-evenly;
@@ -150,7 +157,7 @@
 
   .grill {
     padding-top: 0.1em;
-    color: white;
+    color: black;
   }
 
   .navbar-item,
@@ -224,7 +231,7 @@
     flex-direction: column;
     justify-content: space-around;
     text-transform: uppercase !important;
-    background-image: url("./b.jpg");
+    background-image: url("./bord.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

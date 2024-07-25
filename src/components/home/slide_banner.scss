@@ -1,0 +1,118 @@
+.gen{
+  font-family:serif
+
+ 
+}
+
+.bgr {
+    background-color: #040001;
+    .t {
+      color: white;
+      font: 2em sans-serif;
+      justify-content: center;
+      text-align: center;
+      font-style: italic;
+    }
+    .pd {
+      padding: 0 3em;
+    }
+    strong {
+      color: chocolate !important;
+    }
+  }
+  a {
+    color: brown;
+  }
+  .sldone_bg {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-image: url("./soft.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: fit-content;
+    h3{
+      color: #fffdfe;
+      font-size: 1.2em;
+      font-weight:bold;
+      text-transform: uppercase !important;
+        }
+    p{
+      margin-top: 0;
+      margin-bottom: auto;
+      color: #f90909;
+      font-size: small;
+    }
+  }
+  
+  .sldtwo_bg {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    background-image: url("./grp.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:100% 99%;
+    height: fit-content;
+    opacity: 0.9;
+    h3{
+      color: #fffdfe;
+      font-size: 1.2em;
+      font-weight:bold;
+      text-transform: uppercase !important;
+        }
+        p{
+          margin-top: 0;
+        margin-bottom: auto;
+        color: #f90909;
+        font-size: small;
+        }
+  }
+
+  .sldthree_bg {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-image: url("./milk.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: fit-content;
+    h3{
+      color: #fffdfe;
+      font-size: 1.2em;
+      font-weight:bold;
+      text-transform: uppercase !important;
+        }
+        p{
+        margin-top: 0;
+        margin-bottom: auto;
+        color: #f90909;
+        font-size: small;
+        }
+  }
+
+  .sldfour_bg {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-image: url("./pen.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: fit-content;
+    h3{
+      color: #fffdfe;
+      font-size: 1.2em;
+      font-weight:bold;
+      text-transform: uppercase !important;
+        }
+        p{
+          margin-top: 0;
+        margin-bottom: auto;
+        color: #f90909;
+        font-size: small;
+        }
+  }

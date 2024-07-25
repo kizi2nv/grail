@@ -43,7 +43,6 @@ const IndexPage = ({ data }) => {
   return (
     <div>
     <Layout>
-     
       <IndexBody/>
       <div> 
         <h2 className="news">NEWS & BLOGS</h2>

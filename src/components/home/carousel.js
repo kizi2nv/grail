@@ -62,6 +62,8 @@ class  Carousels extends React.Component{
   
       </Carousel.Item>
 
+      
+
        <Carousel.Item style={{"height":"350px"}} interval={5200}>
        <div className="row">
               <div className=" col t" >
@@ -71,6 +73,9 @@ class  Carousels extends React.Component{
                   </p>
               </div>
       </div>
+
+
+
       <div className="review-car__autor clr text-uppercase mt-3 f6">
                            <strong>
                              — 
