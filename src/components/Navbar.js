@@ -44,7 +44,8 @@ const Navbar = class extends React.Component {
           <div className=" cont_1">
             <Link to="/" className="ai" title="Logo">
               <img src={logo} alt="Kaldi" style={{ width: '75px' }} />
-              <h3 className="grill"> Grail<span className="att">Attorneys</span> </h3>
+              <h3 className="grill"> GRAIL<span className="att"> ATTORNEY</span> <br /><p className="free">Guiding Your Path To <span className="black"> Freedom </span> and<span className="black"> Justice </span></p></h3>
+              
             </Link>
             </div>
             <div className="conti_2">
@@ -69,11 +70,15 @@ const Navbar = class extends React.Component {
             <Link className="navbar-item" to="/">
                 Home
               </Link>
-              <Link className="navbar-item" to="/team/tobi/tobi">
-               Meet Tobi
+              <Link className="navbar-item" to="/team/about_us/about_us">
+               About us
               </Link>
+             
+             {/* <Link className="navbar-item" to="/team/tobi/tobi">
+               Meet Tobi
+    </Link>*/}
               <Link className="navbar-item" to="/products">
-                Practice areas
+                Practice Area
               </Link>
               <Link className="navbar-item" to="/team/partners/partners_home">
                 Partners

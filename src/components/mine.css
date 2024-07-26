@@ -10,6 +10,15 @@ body {
   overflow-x: hidden;
 }
 
+.free{
+  color: black;
+  font-size: xx-small;
+  text-decoration: underline;
+}
+.black{
+  color: red;
+}
+
 #page {
   display: flex;
   flex-direction: column;
@@ -120,7 +129,7 @@ section {
   text-decoration: none;
 }
 .mine a {
-  color: beige;
+  color: #434324;
   text-decoration: none;
 }
 @media screen and (min-width: 1024px) {

@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'gatsby'
-import logo from '../../../../../static/img/3.png'
+import logo from '../../../../../static/img/3.jpg'
 
 import './partner_preview.scss'
 

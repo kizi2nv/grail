@@ -36,11 +36,12 @@
 @media screen and (max-width: 1023px) {
   .partner_main {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     margin: 2em;
     border-radius: 1em;
   }
   .partner_main .partner_div {
+    height:max-content;
     margin: 2em;
     background-color: brown;
   }
