@@ -1,0 +1,108 @@
+
+.area_head{
+  height: 335px;
+  width: 100%;
+text-align: center;
+display: flex;
+background-color: #4b1c23;
+color: white;
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+text-transform: uppercase !important;
+background-image: url("./fi.jpg");
+background-position: center;
+background-repeat: no-repeat;
+background-size: 100% 100%;
+font-family: serif;
+font-weight: bolder;
+}
+.bk{
+  background-color: #ff00005c;
+  margin: 0% 30%;
+  border-radius: 2em;
+}
+
+.area_container {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    margin: 3px;
+    width:100%
+  }
+  .practices{
+    display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   margin: 3px;
+   padding: 2px;
+   justify-content: center;
+   div{
+     width: 30%;
+    text-align: center;
+    h4{
+      color: #504e4e;
+      text-decoration: auto;
+      text-transform: uppercase;
+      font-size: large;
+      font-family: fangsong;
+    }
+    p{
+      text-align: center;
+      font-size: small;
+      font-family: system-ui;
+      color: #5f4b4b;
+    }
+    a{
+      color: #d5a269;
+      text-transform: uppercase;
+      text-align: center;
+      justify-content: center;
+
+    }
+   }
+   div figure{
+    width: 100%;
+    padding: 1% 7% 15% 0%;
+    margin: 2% 3% 1% 10%;
+
+   }
+  }
+
+  .human{
+    
+  }
+  .litigation{
+
+  }
+.corperate{
+  
+}
+.estate{
+
+}
+.intellectual{
+
+}
+.election{
+
+}
+.met{
+
+}
+  @media screen and (max-width: 1230px) {
+ 
+  }
+  @media screen and (max-width: 1224px) {
+    
+  }
+  
+  @media screen and (max-width: 1023px) {
+   
+    
+  }
+  
+  @media screen and (max-width: 823px) {
+   
+  }
+  

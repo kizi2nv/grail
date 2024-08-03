@@ -21,59 +21,56 @@ const Areas = () => (
              <div className="violent a" >
                  <div className="">
                      <div className="">
-                         Violent<br/>
-                          Crimes          
+                     human right and criminal <br/> justice expert
+                                
                     </div>
 							
-                   < Link to="/products" className="read">
-                            Read More...
-                    </ Link>
+                    <Link className="navbar-item" to="/team/area/area">
+                 Read more...
+              </Link>
                 </div>
             </div>
             <div className="drug a">
                             <div className="">
                                 <div className="">
-                                   Drug<br/>
-                                   Crimes              
+                                real estate and property managemen              
                                 </div>
-				                < Link to="/products" className="read">
-                            Read More...
-                    </ Link>
+                                <Link className="navbar-item" to="/team/area/area">
+                 Read more...
+              </Link>
                              </div>
                         </div>
             <div className="theft a" >
                         <div className="-container">
                             <div className="">
-                                 Theft / Property<br/>
-                                    Crimes              
+                            corperate and <br/>commercial law practice
+                                                
                             </div>
-						    < Link to="/products" className="read">
-                            Read More...
-                    </ Link>
+                            <Link className="navbar-item" to="/team/area/area">
+                 Read more...
+              </Link>
                          </div>
                         </div>
             <div className="oui a" >
                         <div className="-container">
                        <div className="">
-                                 DUI / Motor<br/>
-                                 Vehicle Offenses        
+                       litigation <br/> expert               
                         </div>
-						< Link to="/products" className="read">
-                            Read More...
-                    </ Link>
+                        <Link className="navbar-item" to="/team/area/area">
+                 Read more...
+              </Link>
                     </div>
-                    </div>
-                    
+                    </div>                  
                     <div className="public a" >
                         <div className="">
                             <div className="">
-                                Public Order<br/>
+                            media entertainment technology and sports law<br/>
                                 Offenses           
                             </div>
                           
-                            < Link to="/products" className="read">
-                            Read More...
-                    </ Link>
+                            <Link className="navbar-item" to="/team/area/area">
+                 Read more...
+              </Link>
                          </div>
                     </div>
                     

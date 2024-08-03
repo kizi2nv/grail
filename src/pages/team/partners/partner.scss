@@ -3,6 +3,41 @@
   flex-direction: column;
   background-color: #eee4e4;
 }
+.team_head{
+  height: 415px;
+  width: 100%;
+text-align: center;
+display: flex;
+background-color: #4b1c23;
+color: white;
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+text-transform: uppercase !important;
+background-image: url("./grp.jpg");
+background-position: center;
+background-repeat: no-repeat;
+background-size: 100% 100%;
+font-family: serif;
+font-weight: bolder;
+opacity: 0.6;
+}
+.bko{
+  background-color: #e2c8c85c;
+  margin: 0% 30%;
+  border-radius: 2em;
+}
+.jpg{
+  height: 10em;
+}
+.sleep{
+  background-color: white;
+}
+.ok{
+  width: 100%;
+  padding: 1% 5% 3% 0% !important;
+  margin: 2% 3% 1% 10%;
+}
 @media screen and (max-width: 1230px) {
   .cont,
   .conti_1 {

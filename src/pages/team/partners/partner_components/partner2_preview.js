@@ -4,6 +4,7 @@ import './partner_preview.scss'
 import logo from '../../../../../static/img/2.jpg'
 const  PartnerPreview2 = () => (
     <div className="partner_main">
+        
     <div className="partner_div">
         <figure className="partner_fig">
         <img src={logo} alt="partners"  data-aos="fade"/>

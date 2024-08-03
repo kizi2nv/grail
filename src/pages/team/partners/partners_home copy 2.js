@@ -18,48 +18,39 @@ import './partner.scss'
 
 import './area.scss'
 import corporate from './3.jpg'
-import met from './7.jpg'
+import met from './met.jpg'
 import right from './3.png'
 import litigation from './2.jpg'
 import intellectual from './5.jpg'
 import election from './6.jpg'
 import estate from './4.jpg'
-import last from './8.jpg'
 import { Link } from 'gatsby'
-import Fade from "react-reveal/Fade"
+
 
 
 
 const Partners = () => (
 	<Layout>
-		 <div className="team_head">
-             <div  className="bk0">
-         <Fade left >
-            <h2 > Our Team</h2>
-        </Fade>
-        </div>
-        </div> 
-
     <div className="partner_container">
-	{/*<PartnerPreview1/>
+	<PartnerPreview1/>
 	<PartnerPreview2/>
 	<PartnerPreview3/>
 	<PartnerPreview4/>
 	<PartnerPreview5/>
 	<PartnerPreview6/>
 	<PartnerPreview7/>
-	<PartnerPreview8/>*/}
+	<PartnerPreview8/>
 
     
-    <div className="practices ">
+    <div className="practices">
         <div className="human">
-             <figure className="0k">
-                        <img className="jpg" alt="Attorney Tobi Igho" src={right}/>
+             <figure className="">
+                        <img className="./b.jpg" alt="Attorney Tobi Igho" src={right}/>
             </figure>
            
-            <h4>Name</h4>
-            <p>portfolio</p>
-            <Link className="navbar-item" to="/team/about_us/about_us">
+            <h4>human right and criminal justice expert</h4>
+            <p> bccjfc fgctrdfxfgxtxuteux fgxjxftuxfgx itxitsetxxezuxdfxd</p>
+            <Link className="navbar-item" to="/team/area/area">
                  Read more
               </Link>
         </div>
@@ -67,37 +58,37 @@ const Partners = () => (
         <figure className="">
                    
                       
-                        <img className="jpg" alt="Attorney Tobi Igho" src={litigation }/>
+                        <img className="./b.jpg" alt="Attorney Tobi Igho" src={litigation }/>
                    
                 </figure>
-				<h4>Name</h4>
-            <p>portfolio</p>
+            <h4>litigation expert</h4>
+            <p>vhjvljvjhj cfuypuyfuydgc ghclhgvhgv urdwzklhj ;kkkkjfdtrerr</p>
             <Link className="navbar-item" to="/team/area/area">
                  Read more
               </Link>
         </div>
         <div className="corperate">
-        <figure className="0k">
+        <figure className="">
                 
                         <source media="(min-width: 992px)" srcSet={corporate}/>
-                        <img className="jpg" alt="Attorney Tobi Igho" src={corporate}/>
+                        <img className="./b.jpg" alt="Attorney Tobi Igho" src={corporate}/>
                 
                 </figure>
-				<h4>Name</h4>
-            <p>portfolio</p>
+            <h4>corperate and commercial law practice</h4>
+            <p> ghkvjlv jguotdrsdrt sfxfg xgtrdrdiytdytfoytdty doytdoydtdgh</p>
             <Link className="navbar-item" to="/team/area/area">
                  Read more
               </Link>
         </div>
         <div>
-        <figure className="0k">
+        <figure className="estate">
                     <picture>
                         <source media="(min-width: 992px)" srcSet={estate}/>
-                        <img className="jpg" alt="Attorney Tobi Igho" src={estate}/>
+                        <img className="./b.jpg" alt="Attorney Tobi Igho" src={estate}/>
                     </picture>
                 </figure>
-				<h4>Name</h4>
-            <p>portfolio</p>
+            <h4>real estate and property management</h4>
+            <p>ugpuygup fyufy fhvbvbcvvcx zdsaaeweryi himkklpi joihhjb jhvvyitft</p>
             <Link className="navbar-item" to="/team/area/area">
                  Read more
               </Link>
@@ -106,11 +97,11 @@ const Partners = () => (
         <figure className="intellectual">
                     <picture>
                         <source media="(min-width: 992px)" srcSet={intellectual}/>
-                        <img className="jpg" alt="Attorney Tobi Igho" src={intellectual}/>
+                        <img className="./b.jpg" alt="Attorney Tobi Igho" src={intellectual}/>
                     </picture>
                 </figure>
-				<h4>Name</h4>
-            <p>portfolio</p>
+            <h4>intellectual property law</h4>
+            <p>ugpuygup fyufy fhvbvbcvvcx zdsaaeweryi himkklpi joihhjb jhvvyitfto </p>
             <Link className="navbar-item" to="/team/area/area">
                  Read more...
               </Link>
@@ -119,11 +110,11 @@ const Partners = () => (
         <figure className="election">
                     <picture>
                         <source media="(min-width: 992px)" srcSet={election}/>
-                        <img className="jpg" alt="Attorney Tobi Igho" src={election}/>
+                        <img className="./b.jpg" alt="Attorney Tobi Igho" src={election}/>
                     </picture>
                 </figure>
-				<h4>Name</h4>
-            <p>portfolio</p>
+            <h4>election petition expert</h4>
+            <p>vknbvkvb vckhvckghcfxc fixidyxfxkfgcg</p>
             <Link className="navbar-item" to="/team/area/area">
                  Read more...
               </Link>
@@ -132,24 +123,11 @@ const Partners = () => (
         <figure className="met">
                     <picture>
                         <source media="(min-width: 992px)" srcSet={met}/>
-                        <img className="jpg" alt="Attorney Tobi Igho" src={met}/>
+                        <img className="./b.jpg" alt="Attorney Tobi Igho" src={met}/>
                     </picture>
         </figure>
-		<h4>Name</h4>
-            <p>portfolio</p>
-            <Link className="navbar-item" to="/team/area/area">
-                 Read more...
-              </Link>
-        </div>
-		<div>
-        <figure className="met">
-                    <picture>
-                        <source media="(min-width: 992px)" srcSet={last}/>
-                        <img className="jpg" alt="Attorney Tobi Igho" src={last}/>
-                    </picture>
-        </figure>
-		<h4>Name</h4>
-            <p>portfolio</p>
+            <h4>media entertainment technology and sports law</h4>
+            <p>gjhfh jhgjfgjf dytdt</p>
             <Link className="navbar-item" to="/team/area/area">
                  Read more...
               </Link>

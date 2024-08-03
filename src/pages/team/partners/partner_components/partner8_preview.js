@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import './partner_preview.scss'
-import logo from '../../../../../static/img/01.png'
+import logo from '../../../../../static/img/8.jpg'
 
 const  PartnerPreview8 = () => (
     <div className="partner_main">
