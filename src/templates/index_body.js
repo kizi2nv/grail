@@ -7,6 +7,7 @@ import Meet from '../components/home/meet'
 import '../components/home/home.css'
 import Banner from '../components/home/banner'
 import SlideBanner from '../components/home/slide_banner'
+import Homearea from '../components/home/Homearea'
 
 
  const IndexBody = () => (
@@ -17,9 +18,9 @@ import SlideBanner from '../components/home/slide_banner'
 		    <article id="post-2" className="post-2 page type-page status-publish hentry">
 			    <div className="entry-content">            
             <SlideBanner/>  
+            <Homearea/>
             <Crime/> 
             <Describe/> 
-            <Areas/>
             <Carousel/> 
 			    </div>
 		    </article>

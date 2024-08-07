@@ -2,13 +2,15 @@ import React from 'react';
 import Layout from '../../../components/Layout'
 import Fade from "react-reveal/Fade"
 import './area.scss'
-import corporate from './corporate.jpg'
+import corporate from './alt.png'
 import met from './met.jpg'
-import right from './right.png'
-import litigation from './litigation.jpg'
-import intellectual from './intellectual.jpg'
-import election from './election.jpg'
-import estate from './estate.jpg'
+import right from './human.png'
+import litigation from './lit.png'
+import intellectual from './intel.png'
+import election from './ele.png'
+import estate from './home.png'
+import oil from './oil.png'
+import energy from './energy.png'
 import { Link } from 'gatsby'
 
 
@@ -22,12 +24,6 @@ const Area = () => (
         </Fade>
         </div>
         </div> 
-    
-
-
-
-
-    
     <div className="practices">
         <div className="human">
              <figure className="">
@@ -46,8 +42,8 @@ const Area = () => (
                       
                         <img className="jpg" alt="Attorney Tobi Igho" src={litigation }/>
                    
-                </figure>
-            <h4>litigation expert</h4>
+         </figure>
+            <h4>litigation and alterntive dispute resolution(adr)  expert</h4>
             <p>vhjvljvjhj cfuypuyfuydgc ghclhgvhgv urdwzklhj ;kkkkjfdtrerr</p>
             <Link className="navbar-item" to="/team/area/area">
                  Read more
@@ -73,7 +69,7 @@ const Area = () => (
                         <img className="jpg" alt="Attorney Tobi Igho" src={estate}/>
                     </picture>
                 </figure>
-            <h4>real estate and property management</h4>
+            <h4>real estate and property management law</h4>
             <p>ugpuygup fyufy fhvbvbcvvcx zdsaaeweryi himkklpi joihhjb jhvvyitft</p>
             <Link className="navbar-item" to="/team/area/area">
                  Read more
@@ -112,19 +108,39 @@ const Area = () => (
                         <img className="jpg" alt="Attorney Tobi Igho" src={met}/>
                     </picture>
         </figure>
-            <h4>media entertainment technology and sports law</h4>
+            <h4>media entertainment technology and sports law(mets)</h4>
+            <p>gjhfh jhgjfgjf dytdt</p>
+            <Link className="navbar-item" to="/team/area/area">
+                 Read more...
+              </Link>
+        </div>
+        <div>
+        <figure className="met">
+                    <picture>
+                        <source media="(min-width: 992px)" srcSet={energy}/>
+                        <img className="jpg" alt="Attorney Tobi Igho" src={energy}/>
+                    </picture>
+        </figure>
+            <h4>Energy law</h4>
             <p>gjhfh jhgjfgjf dytdt</p>
             <Link className="navbar-item" to="/team/area/area">
                  Read more...
               </Link>
         </div>
 
+        <div>
+        <figure className="met">
+                    <picture> 
+                        <img className="jpg" alt="Attorney Tobi Igho" src={oil}/>
+                    </picture>
+        </figure>
+            <h4>Oil and Gas law</h4>
+            <p>gjhfh jhgjfgjf dytdt</p>
+            <Link className="navbar-item" to="/team/area/area">
+                 Read more...
+              </Link>
         </div>
-
-
-
-
-
+        </div>
 
     </section>
 	</Layout>

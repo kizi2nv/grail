@@ -1,6 +1,6 @@
 
 .area_head{
-  height: 335px;
+  height: 435px !important;
   width: 100%;
 text-align: center;
 display: flex;
@@ -10,17 +10,27 @@ display: flex;
 flex-direction: column;
 justify-content: space-around;
 text-transform: uppercase !important;
-background-image: url("./fi.jpg");
+background-image: url("./practice.jpg") !important;
 background-position: center;
 background-repeat: no-repeat;
 background-size: 100% 100%;
 font-family: serif;
 font-weight: bolder;
+opacity: 0.8;
 }
 .bk{
-  background-color: #ff00005c;
+  padding-top: 5px;
+  background-color: #ff0000c7 !important;
   margin: 0% 30%;
   border-radius: 2em;
+}
+.h2bkg{
+  color:#820e0e;
+  font-family: math;
+  text-decoration: blink;
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 15px;
 }
 
 .area_container {
@@ -92,6 +102,24 @@ font-weight: bolder;
 }
   @media screen and (max-width: 1230px) {
  
+.area_head{
+  height: 335px !important;
+  width: 100%;
+text-align: center;
+display: flex;
+background-color: #4b1c23;
+color: white;
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+text-transform: uppercase !important;
+background-image: url("./practice.jpg") !important;
+background-position: center;
+background-repeat: no-repeat;
+background-size: 100% 100%;
+font-family: serif;
+font-weight: bolder;
+}
   }
   @media screen and (max-width: 1224px) {
     

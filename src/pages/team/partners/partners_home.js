@@ -18,6 +18,7 @@ import './partner.scss'
 
 import './area.scss'
 import corporate from './3.jpg'
+import nd from './2nd.jpg'
 import met from './7.jpg'
 import right from './3.png'
 import litigation from './2.jpg'
@@ -57,7 +58,19 @@ const Partners = () => (
                         <img className="jpg" alt="Attorney Tobi Igho" src={right}/>
             </figure>
            
-            <h4>Name</h4>
+            <h4>igho</h4>
+            <p>portfolio</p>
+            <Link className="navbar-item" to="/team/about_us/about_us">
+                 Read more
+              </Link>
+        </div>
+      
+        <div className="human">
+             <figure className="0k">
+                        <img className="jpg" alt="Attorney Tobi Igho" src={right}/>
+            </figure>
+           
+            <h4>dad</h4>
             <p>portfolio</p>
             <Link className="navbar-item" to="/team/about_us/about_us">
                  Read more
@@ -70,20 +83,28 @@ const Partners = () => (
                         <img className="jpg" alt="Attorney Tobi Igho" src={litigation }/>
                    
                 </figure>
-				<h4>Name</h4>
+				<h4>White beards</h4>
             <p>portfolio</p>
             <Link className="navbar-item" to="/team/area/area">
                  Read more
               </Link>
         </div>
+        <div className="human">
+             <figure className="0k">
+                        <img className="jpg" alt="Attorney Tobi Igho" src={nd}/>
+            </figure>
+           
+            <h4>New guy</h4>
+            <p>portfolio</p>
+            <Link className="navbar-item" to="/team/about_us/about_us">
+                 Read more
+              </Link>
+        </div>
         <div className="corperate">
-        <figure className="0k">
-                
-                        <source media="(min-width: 992px)" srcSet={corporate}/>
+        <figure className="0k">    
                         <img className="jpg" alt="Attorney Tobi Igho" src={corporate}/>
-                
                 </figure>
-				<h4>Name</h4>
+				<h4>wifee</h4>
             <p>portfolio</p>
             <Link className="navbar-item" to="/team/area/area">
                  Read more
@@ -91,12 +112,11 @@ const Partners = () => (
         </div>
         <div>
         <figure className="0k">
-                    <picture>
-                        <source media="(min-width: 992px)" srcSet={estate}/>
+                    <picture>      
                         <img className="jpg" alt="Attorney Tobi Igho" src={estate}/>
                     </picture>
                 </figure>
-				<h4>Name</h4>
+				<h4>boss</h4>
             <p>portfolio</p>
             <Link className="navbar-item" to="/team/area/area">
                  Read more
@@ -118,7 +138,6 @@ const Partners = () => (
         <div>
         <figure className="election">
                     <picture>
-                        <source media="(min-width: 992px)" srcSet={election}/>
                         <img className="jpg" alt="Attorney Tobi Igho" src={election}/>
                     </picture>
                 </figure>
@@ -131,7 +150,6 @@ const Partners = () => (
         <div>
         <figure className="met">
                     <picture>
-                        <source media="(min-width: 992px)" srcSet={met}/>
                         <img className="jpg" alt="Attorney Tobi Igho" src={met}/>
                     </picture>
         </figure>
@@ -144,7 +162,6 @@ const Partners = () => (
 		<div>
         <figure className="met">
                     <picture>
-                        <source media="(min-width: 992px)" srcSet={last}/>
                         <img className="jpg" alt="Attorney Tobi Igho" src={last}/>
                     </picture>
         </figure>
@@ -152,12 +169,10 @@ const Partners = () => (
             <p>portfolio</p>
             <Link className="navbar-item" to="/team/area/area">
                  Read more...
-              </Link>
+            </Link>
         </div>
 
         </div>
-
-
 
 	</div>
 	</Layout>
