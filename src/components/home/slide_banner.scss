@@ -5,7 +5,7 @@
 }
 
 .bgr {
-    background-color: #040001;
+    background-color: #830404;;
     .t {
       color: white;
       font: 2em sans-serif;
@@ -115,4 +115,15 @@
         color: #f90909;
         font-size: small;
         }
+  }
+
+  .word{
+    padding: 20% !important;
+  }
+  
+  @media screen and (max-width: 823px) {
+
+    .word{
+      padding: 25% !important;
+    }
   }

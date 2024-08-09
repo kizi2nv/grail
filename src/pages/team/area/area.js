@@ -11,6 +11,8 @@ import election from './ele.png'
 import estate from './home.png'
 import oil from './oil.png'
 import energy from './energy.png'
+import adr from './adr.png'
+import mets from './mets.png'
 import { Link } from 'gatsby'
 
 
@@ -29,7 +31,6 @@ const Area = () => (
              <figure className="">
                         <img className="jpg" alt="Attorney Tobi Igho" src={right}/>
             </figure>
-           
             <h4>human right and criminal justice expert</h4>
             <p> bccjfc fgctrdfxfgxtxuteux fgxjxftuxfgx itxitsetxxezuxdfxd</p>
             <Link className="navbar-item" to="/team/area/area">
@@ -38,9 +39,8 @@ const Area = () => (
         </div>
         <div className="litigation">
         <figure className="">
-                   
                       
-                        <img className="jpg" alt="Attorney Tobi Igho" src={litigation }/>
+                        <img className="jpg" alt="Attorney Tobi Igho" src={adr }/>
                    
          </figure>
             <h4>litigation and alterntive dispute resolution(adr)  expert</h4>
@@ -104,8 +104,8 @@ const Area = () => (
         <div>
         <figure className="met">
                     <picture>
-                        <source media="(min-width: 992px)" srcSet={met}/>
-                        <img className="jpg" alt="Attorney Tobi Igho" src={met}/>
+                        <source media="(min-width: 992px)" srcSet={mets}/>
+                        <img className="jpg" alt="Attorney Tobi Igho" src={mets}/>
                     </picture>
         </figure>
             <h4>media entertainment technology and sports law(mets)</h4>

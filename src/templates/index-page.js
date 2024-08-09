@@ -45,8 +45,8 @@ const IndexPage = ({ data }) => {
     <Layout>
       <IndexBody/>
       <div> 
-        <h2 className="news">NEWS & BLOGS</h2>
-      <BlogRoll />
+        {/* <h2 className="news">NEWS & BLOGS</h2>
+     <BlogRoll />*/}
       </div>
     </Layout>
    

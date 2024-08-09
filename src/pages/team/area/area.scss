@@ -47,9 +47,14 @@ opacity: 0.8;
    margin: 3px;
    padding: 2px;
    justify-content: center;
+
+
+
    div{
      width: 30%;
     text-align: center;
+
+
     h4{
       color: #504e4e;
       text-decoration: auto;
@@ -57,53 +62,40 @@ opacity: 0.8;
       font-size: large;
       font-family: fangsong;
     }
+
+
     p{
       text-align: center;
       font-size: small;
       font-family: system-ui;
       color: #5f4b4b;
     }
+
+
     a{
       color: #d5a269;
       text-transform: uppercase;
       text-align: center;
       justify-content: center;
-
     }
+
+
    }
+
+
    div figure{
     width: 100%;
-    padding: 1% 7% 15% 0%;
+    padding: 9% 5% 3% 0% !important;
     margin: 2% 3% 1% 10%;
 
    }
-  }
-
-  .human{
-    
-  }
-  .litigation{
 
   }
-.corperate{
-  
-}
-.estate{
 
-}
-.intellectual{
-
-}
-.election{
-
-}
-.met{
-
-}
   @media screen and (max-width: 1230px) {
  
 .area_head{
-  height: 335px !important;
+  height: 250px !important;
   width: 100%;
 text-align: center;
 display: flex;
@@ -120,9 +112,28 @@ background-size: 100% 100%;
 font-family: serif;
 font-weight: bolder;
 }
+
+
+.bk{
+  padding-top: 5px;
+  background-color: #ff0000c7 !important;
+  margin: 0% 20% !important;
+  border-radius: 2em;
+}
+
+ 
+
   }
   @media screen and (max-width: 1224px) {
     
+
+    
+  
+    @media screen and (max-width: 1230px) {
+   
+  
+    }
+
   }
   
   @media screen and (max-width: 1023px) {
@@ -132,5 +143,55 @@ font-weight: bolder;
   
   @media screen and (max-width: 823px) {
    
+    .practices{
+      display: flex;
+     flex-direction: column;
+     flex-wrap: wrap;
+     margin: 3px;
+     padding: 2px;
+     justify-content: center;
+    
+    
+     div{
+       width: 90% !important;
+      text-align: center;
+    
+    
+      h4{
+        color: #504e4e;
+        text-decoration: auto;
+        text-transform: uppercase;
+        font-size: large;
+        font-family: fangsong;
+      }
+    
+    
+      p{
+        text-align: center;
+        font-size: small;
+        font-family: system-ui;
+        color: #5f4b4b;
+      }
+    
+    
+      a{
+        color: #d5a269;
+        text-transform: uppercase;
+        text-align: center;
+        justify-content: center;
+      }
+    
+    
+     }
+    
+    
+     div figure{
+      width: 90% !important;
+      padding: 9% 5% 3% 0% !important;
+      margin: 2% 3% 1% 10%;
+    
+     }
+    }
+
   }
   

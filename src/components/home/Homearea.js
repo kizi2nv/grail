@@ -9,6 +9,8 @@ import litigation from './lit.png'
 import intellectual from './intel.png'
 import election from './ele.png'
 import estate from './home.png'
+import adr from './adr.png'
+import mets from './adr.png'
 import { Link } from 'gatsby'
 
 
@@ -37,7 +39,7 @@ const Homearea = () => (
         <figure className="">
                    
                       
-                        <img className="jpg" alt="Attorney Tobi Igho" src={litigation }/>
+                        <img className="jpg" alt="Attorney Tobi Igho" src={adr }/>
                    
                 </figure>
             <h4>litigation and alternative dispute resolution (adr) expert</h4>
@@ -72,34 +74,7 @@ const Homearea = () => (
                  Read more
               </Link>
         </div>
-        <div>
-        <figure className="intellectual">
-                    <picture>
-                        <source media="(min-width: 992px)" srcSet={intellectual}/>
-                        <img className="jpg" alt="Attorney Tobi Igho" src={intellectual}/>
-                    </picture>
-                </figure>
-            <h4>intellectual property law</h4>
-            <p>ugpuygup fyufy fhvbvbcvvcx zdsaaeweryi himkklpi joihhjb jhvvyitfto </p>
-            <Link className="navbar-item" to="/team/area/area">
-                 Read more...
-              </Link>
-        </div>
-        <div>
-        <figure className="election">
-                    <picture>
-                        <source media="(min-width: 992px)" srcSet={election}/>
-                        <img className="jpg" alt="Attorney Tobi Igho" src={election}/>
-                    </picture>
-                </figure>
-            <h4>election petition expert</h4>
-            <p>vknbvkvb vckhvckghcfxc fixidyxfxkfgcg</p>
-            <Link className="navbar-item" to="/team/area/area">
-                 Read more...
-              </Link>
-        </div>
-    
-
+       
         </div>
 
     </section>
