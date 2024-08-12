@@ -22,10 +22,10 @@ class  SlideBanner extends React.Component{
    <Carousel.Item className="sldone_bg" style={{"height":"350px"}} interval={5200}>
      <div className="word" >
      <Fade right>
-       <h3> hello lets put this words here</h3> 
+       <h3> human right and criminal justtice</h3> 
       </Fade>
       <Fade left>
-      <p> The text to follow</p>
+      <p> Unparalleled advocacy is assured in guiding your path to freedom and justice</p>
       </Fade>
       </div> 
    </Carousel.Item>
@@ -34,20 +34,20 @@ class  SlideBanner extends React.Component{
                   
    <div className="word" >
      <Fade right>
-       <h3> hello lets put this words here</h3> 
+       <h3> litigation and alternative dispute resolution (ADR)</h3> 
       </Fade>
       <Fade left>
-      <p> The text to follow</p>
+      <p> We are a distinguished leader in the realm of litigation and ADR</p>
       </Fade>
       </div>   
      </Carousel.Item>   
      <Carousel.Item className="sldfour_bg" style={{"height":"350px"}} interval={5200}>
                   <div className="word">
      <Fade right>
-       <h3> hello lets put this words here</h3> 
+       <h3> corporate solution and commercial law practice</h3> 
       </Fade>
       <Fade left>
-      <p> The text to follow</p>
+      <p> Innovative solution driven mindset in all corporate/commercial transaction is assured. </p>
       </Fade>
       </div>                                                     
      </Carousel.Item>   
@@ -55,10 +55,10 @@ class  SlideBanner extends React.Component{
     <Carousel.Item className="sldthree_bg" style={{"height":"350px"}} interval={5200}>
                  <div className="word" >
      <Fade right>
-       <h3> hello lets put this words here</h3> 
+       <h3> real estate and property management</h3> 
       </Fade>
       <Fade left>
-      <p> The text to followww</p>
+      <p> Due diligence in ensuring the non-purchase of defective or encumbered title</p>
       </Fade>
       </div>  
     </Carousel.Item>

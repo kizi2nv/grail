@@ -17,3 +17,23 @@
 a {
   color: brown;
 }
+
+.bgrr {
+  background-color: #4b1c23;
+  .t {
+    color: white;
+    font: 1em sans-serif;
+    justify-content: center;
+    text-align: center;
+    font-style: italic;
+  }
+  .pd {
+    padding: 0 3em;
+  }
+  strong {
+    color: chocolate !important;
+  }
+}
+a {
+  color: brown;
+}

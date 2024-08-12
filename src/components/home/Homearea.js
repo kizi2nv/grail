@@ -15,7 +15,7 @@ import { Link } from 'gatsby'
 
 
 const Homearea = () => (
-	<section className="">
+	<section className="hh">
          <div className="">
              <div  className="h2bkg">
          <Fade left >
@@ -30,7 +30,9 @@ const Homearea = () => (
                         <img className="jpg" alt="Attorney Tobi Igho" src={right}/>
             </figure>        
             <h4>human right and criminal justice expert</h4>
-            <p> bccjfc fgctrdfxfgxtxuteux fgxjxftuxfgx itxitsetxxezuxdfxd</p>
+            <p> Have you been arrested, charged with a crime or have your rights been infringed upon? 
+                
+                Our team is here to help guide your path to freedom and juistice if you seek Unparalleled advocacy and proven results.   </p>
             <Link className="navbar-item" to="/team/area/area">
                  Read more
               </Link>
@@ -43,7 +45,9 @@ const Homearea = () => (
                    
                 </figure>
             <h4>litigation and alternative dispute resolution (adr) expert</h4>
-            <p>vhjvljvjhj cfuypuyfuydgc ghclhgvhgv urdwzklhj ;kkkkjfdtrerr</p>
+            <p>we have established ourselves as a distinguished leader in the realms of 
+                litigation and ADR, setting 
+                benchmarks through our unwavering dedication and client satisfaction. </p>
             <Link className="navbar-item" to="/team/area/area">
                  Read more
               </Link>
@@ -56,7 +60,9 @@ const Homearea = () => (
                 
                 </figure>
             <h4>corperate and commercial law practice</h4>
-            <p> ghkvjlv jguotdrsdrt sfxfg xgtrdrdiytdytfoytdty doytdoydtdgh</p>
+            <p>We take pride in our innovative solution driven mindset aimed
+                 at protecting 
+                the best interest of our clients in all Corporate/Commercial transaction.</p>
             <Link className="navbar-item" to="/team/area/area">
                  Read more
               </Link>
@@ -69,7 +75,9 @@ const Homearea = () => (
                     </picture>
                 </figure>
             <h4>real estate and property management</h4>
-            <p>ugpuygup fyufy fhvbvbcvvcx zdsaaeweryi himkklpi joihhjb jhvvyitft</p>
+            <p>Due diligence is our watchword. We  are equiped with modern and international best practice
+                 methodologies to ensures our esteemed clients do not purchase defective or encumbered title.
+            </p>
             <Link className="navbar-item" to="/team/area/area">
                  Read more
               </Link>

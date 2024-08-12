@@ -15,7 +15,7 @@ class  Carousels extends React.Component{
 
   
 
-<section className="bgr text-center">
+<section className="bgrr text-center">
 <div className="headline f1 color-white">What Clients Say</div>
    <Carousel >
      <Carousel.Item style={{"height":"350px"}} interval={5200}>
@@ -34,7 +34,6 @@ class  Carousels extends React.Component{
                          <div itemProp="reviewBody" className="review-car__desc">
                            <p className="m-0 color-white">
                             GrailAttorneys represented me in a case .
-                  
                             I found them to be courteous, 
                             responsive and very professional. 
                             I would highly GrailAttorneys, 
