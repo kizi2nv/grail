@@ -50,7 +50,7 @@ const Area = () => (
             <h4>litigation and alterntive dispute resolution(adr)  expert</h4>
             <p>Over the years, we have been acknowledged and renowned as a litigation law firm across all practice areas. Our litigation department has enjoyed enviable reputation as seasoned advocate dedicated to the cause of our clients in contentious trial and appellate matters. Regardless, the interest of our client remains our priority. Thus, the option of out- of-court settlement that gives real value to our
 			 client is always open in other to save our clients time and resources alongside preserving valuable business relationship.... <span>
-             <Link className="" to="/team/area/human/human">
+             <Link className="" to="/team/area/litigation/litigation">
                  Read more
               </Link>
              </span>
@@ -68,7 +68,7 @@ const Area = () => (
 			time practical corporate and commercial advice to both 
 			multinational corporations and start-up 
 			businesses in various sectors on legal issues which has massively impacted their businesses..... <span>
-             <Link className="" to="/team/area/human/human">
+             <Link className="" to="/team/area/corporate/corporate">
                  Read more
               </Link>
              </span>
@@ -86,7 +86,7 @@ const Area = () => (
             <h4>real estate and property management law</h4>
             <p>Our diligent team of lawyers in this department provides
 			 top notch advisory services to both our local and international clients on all aspects of real estate and property management..... <span>
-             <Link className="" to="/team/area/human/human">
+             <Link className="" to="/team/area/estate/estate">
                  Read more
               </Link>
              </span>
@@ -102,7 +102,7 @@ const Area = () => (
                 </figure>
             <h4>intellectual property law</h4>
             <p>Our intellectual property law department is fully engaged in diverse areas of intellectual property.  .... <span>
-             <Link className="" to="/team/area/human/human">
+             <Link className="" to="/team/area/intellectual/intellectual">
                  Read more
               </Link>
              </span> 
@@ -120,7 +120,7 @@ const Area = () => (
             <p>Election petition is sui generis.
 			 Our capacity building programme has helped our 
 			 attorneys carve a niche for themselves in this unique area of law. .... <span>
-             <Link className="" to="/team/area/human/human">
+             <Link className="" to="/team/area/election/election">
                  Read more
               </Link>
              </span>
@@ -137,7 +137,7 @@ const Area = () => (
             <h4>media entertainment technology and sports law(mets)</h4>
             <p>This is an emerging area of law and due to our attention to details and quest for growth we delved into it as this industry is in dire need of innovative and brilliant solicitors and litigators. We have over the years brought our collective
 			 experience and solution driven mindset towards solving complex legal issues in the creative, technology and sport industry..... <span>
-             <Link className="" to="/team/area/human/human">
+             <Link className="" to="/team/area/met/met">
                  Read more
               </Link>
              </span>
@@ -154,7 +154,7 @@ const Area = () => (
             <h4>Energy law</h4>
             <p>Climate change has expanded the scope of the energy/power industry, with renewable energy the new normal. This without an iota of doubt has led to rapid development in the energy landscape which is a critical sector in the development of any economy. With growth comes opportunities and challenges, thus, 
 			the need for the advisory service of an expert energy law solicitor to help harness the opportunities of this ever growing industry..... <span>
-             <Link className="" to="/team/area/human/human">
+             <Link className="" to="/team/area/energy/energy">
                  Read more
               </Link>
              </span> 
@@ -170,7 +170,7 @@ const Area = () => (
             <h4>Oil and Gas law</h4>
             <p>GThe fulcrum of the Nigeria economy is oil and gas. The 
 			important and complex nature of this industry has brought about so many legal issues that demands expert legal services..... <span>
-             <Link className="" to="/team/area/human/human">
+             <Link className="" to="/team/area/oil/oil">
                  Read more
               </Link>
              </span>
