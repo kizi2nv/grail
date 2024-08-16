@@ -5,9 +5,19 @@
 }
 
 .word{
+  height: inherit;
   padding: 20% !important;
   background-color: #26252487
 }
+.carousel-item {
+  position: relative;
+  display: none;
+  float: left;
+  width: 100%;
+  background-color: #c02b2b87;
+  margin-right: -100%;
+}
+
 
 .bgr {
     background-color: #830404;;
@@ -134,5 +144,6 @@
 
     .word{
       padding: 25% !important;
+      background-color: #26252487
     }
   }

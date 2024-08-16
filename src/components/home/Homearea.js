@@ -1,16 +1,10 @@
 import React from 'react';
-
 import Fade from "react-reveal/Fade"
 import './area.scss'
 import corporate from './alt.png'
-import met from './met.jpg'
 import right from './human.png'
-import litigation from './lit.png'
-import intellectual from './intel.png'
-import election from './ele.png'
 import estate from './home.png'
 import adr from './adr.png'
-import mets from './adr.png'
 import { Link } from 'gatsby'
 
 
@@ -33,7 +27,7 @@ const Homearea = () => (
             <p> Have you been arrested, charged with a crime or have your rights been infringed upon? 
                 
                 Our team is here to help guide your path to freedom and juistice if you seek Unparalleled advocacy and proven results.   </p>
-            <Link className="navbar-item" to="/team/area/area">
+              <Link className="navbar-item" to="/team/area/human/human">
                  Read more
               </Link>
         </div>
@@ -48,7 +42,7 @@ const Homearea = () => (
             <p>we have established ourselves as a distinguished leader in the realms of 
                 litigation and ADR, setting 
                 benchmarks through our unwavering dedication and client satisfaction. </p>
-            <Link className="navbar-item" to="/team/area/area">
+                <Link className="navbar-item" to="/team/area/litigation/litigation">
                  Read more
               </Link>
         </div>
@@ -63,7 +57,7 @@ const Homearea = () => (
             <p>We take pride in our innovative solution driven mindset aimed
                  at protecting 
                 the best interest of our clients in all Corporate/Commercial transaction.</p>
-            <Link className="navbar-item" to="/team/area/area">
+                <Link className="navbar-item" to="/team/area/corporate/corporate">
                  Read more
               </Link>
         </div>
@@ -78,7 +72,7 @@ const Homearea = () => (
             <p>Due diligence is our watchword. We  are equiped with modern and international best practice
                  methodologies to ensures our esteemed clients do not purchase defective or encumbered title.
             </p>
-            <Link className="navbar-item" to="/team/area/area">
+            <Link className="navbar-item" to="/team/area/estate/estate">
                  Read more
               </Link>
         </div>

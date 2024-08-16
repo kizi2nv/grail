@@ -10,7 +10,6 @@ import Fade from "react-reveal/Fade"
 class  SlideBanner extends React.Component{ 
     
  
-
     render(){
 
   return(

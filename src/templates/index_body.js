@@ -8,6 +8,7 @@ import '../components/home/home.css'
 import Banner from '../components/home/banner'
 import SlideBanner from '../components/home/slide_banner'
 import Homearea from '../components/home/Homearea'
+import Welcome from '../components/home/welcome'
 
 
  const IndexBody = () => (
@@ -18,6 +19,7 @@ import Homearea from '../components/home/Homearea'
 		    <article id="post-2" className="post-2 page type-page status-publish hentry">
 			    <div className="entry-content">            
             <SlideBanner/>  
+            <Welcome/>  
             <Homearea/>
             <Crime/> 
             <Describe/> 
