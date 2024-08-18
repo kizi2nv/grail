@@ -36,14 +36,14 @@ class  SlideBanner extends React.Component{
        <h3> litigation and alternative dispute resolution (ADR)</h3> 
       </Fade>
       <Fade left>
-      <p> We are a distinguished leader in the realm of litigation and ADR</p>
+      <p> We are a distinguished leader in the realms of litigation and ADR</p>
       </Fade>
       </div>   
      </Carousel.Item>   
      <Carousel.Item className="sldfour_bg" style={{"height":"350px"}} interval={5200}>
                   <div className="word">
      <Fade right>
-       <h3> corporate solution and commercial law practice</h3> 
+       <h3> corporate and commercial law practice</h3> 
       </Fade>
       <Fade left>
       <p> Innovative solution driven mindset in all corporate/commercial transaction is assured. </p>

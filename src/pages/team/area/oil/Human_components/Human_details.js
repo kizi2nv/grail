@@ -2,7 +2,7 @@ import React from 'react'
 
 const HumanDetails = () => (
     <section className='ahh'>
-		<p>GThe fulcrum of the Nigeria economy is oil and gas. The 
+		<p>The fulcrum of the Nigeria economy is oil and gas. The 
 			important and complex nature of this industry has brought about so many legal issues that demands expert legal services.
 		 </p>
         <blockquote className="wp-block-quote">
@@ -19,7 +19,7 @@ const HumanDetails = () => (
 		</ul>
 		</blockquote>
        <p>
-	   Our efficiency in rendering services in this practice areas cannot be over emphasized. Our clientle which cuts across major brands and start-ups 
+	   Our efficiency in rendering services in this practice areas cannot be over emphasized. Our clientele which cuts across major brands and start-ups 
 	   have constantly been satisfied with our diligent advisory, dispute resolution and litigation services.
 	   </p>
     

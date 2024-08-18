@@ -7,7 +7,8 @@ const HumanDetails = () => (
         <blockquote className="wp-block-quote">
 
 		<p>Over the years, we have successfully assisted our 
-			clients who are both major brands as start-ups in registering, managing and protecting their intellectual assets/ideas.
+			clients who are both major brands and start-ups in registering, managing and protecting their 
+			 intellectual assets/ideas.
 		</p>
 		</blockquote>
         <p className="has-regular-font-size">We offer swift and bespoke services to meet the specific needs of 
@@ -20,7 +21,8 @@ const HumanDetails = () => (
 		<li>	Patents and designs.</li>
 		<li>	Trade secrets.</li>
 		<li>	Product Registration.</li>
-		<li>	Contentions and non-contentions intellectual property matters before administrative tribunals, arbitration panels, trials and appellate courts.</li>
+		<li>	Contentious and non-contentiouss intellectual property 
+			matters before administrative tribunals, arbitration panels, trials and appellate courts.</li>
 
 		</ul>
      	

@@ -23,7 +23,7 @@ const Homearea = () => (
              <figure className="">
                         <img className="jpg" alt="Attorney Tobi Igho" src={right}/>
             </figure>        
-            <h4>human right and criminal justice expert</h4>
+            <h4>human right and criminal justice experts</h4>
             <p> Have you been arrested, charged with a crime or have your rights been infringed upon? 
                 
                 Our team is here to help guide your path to freedom and juistice if you seek Unparalleled advocacy and proven results.   </p>
@@ -38,7 +38,7 @@ const Homearea = () => (
                         <img className="jpg" alt="Attorney Tobi Igho" src={adr }/>
                    
                 </figure>
-            <h4>litigation and alternative dispute resolution (adr) expert</h4>
+            <h4>litigation and alternative dispute resolution (adr) </h4>
             <p>we have established ourselves as a distinguished leader in the realms of 
                 litigation and ADR, setting 
                 benchmarks through our unwavering dedication and client satisfaction. </p>
@@ -70,7 +70,7 @@ const Homearea = () => (
                 </figure>
             <h4>real estate and property management</h4>
             <p>Due diligence is our watchword. We  are equiped with modern and international best practice
-                 methodologies to ensures our esteemed clients do not purchase defective or encumbered title.
+                 methodologies to ensures our esteemed client do not purchase defective or encumbered title.
             </p>
             <Link className="navbar-item" to="/team/area/estate/estate">
                  Read more

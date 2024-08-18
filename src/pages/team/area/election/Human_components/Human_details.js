@@ -13,14 +13,14 @@ const HumanDetails = () => (
 		</p>
 		</blockquote>
         <p className="has-regular-font-size">We have over the years been involved in high profile election 
-		petition matters as a firm aid also in collaboration with other law firms, which portrays our ability to be a team player.
+		petition matters as a firm and also in collaboration with other law firms, which portrays our ability to be a team player.
 		</p>
      	 <p>Most recently we were part of the legal teams that successfully defended the 2023 election victory of the Governor of 
 			  Abia State from the tribunal level up to the supreme court among other successful election petition matters we have litigated upon.
      	 </p>
 
 		  <p>
-		  We maintain a robust team of election petition lawyers who posses deep understanding of electoral laws, constitutional provisions and precedents 
+		  We maintain a robust team of election petition lawyers who possess deep understanding of electoral laws, constitutional provisions and precedents 
 		  relevant to challenging/defending election outcomes, so as to ensure top notch representation of our clients.
 		  </p>
 

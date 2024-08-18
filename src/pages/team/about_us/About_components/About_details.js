@@ -13,7 +13,14 @@ const AboutDetails = () => (
 		</blockquote>
         <p className="has-regular-font-size">Over the years, we have acquired a reputation of rendering pragmatic, bespoke and efficient legal services that suits the need of each client. Thus, making us a law firm of choice for clients and lawyers alike.
 		</p>
-     	 <p>We take pride in our capacity building programme that has made us a law firm of lawyers abreast with the most recent case laws and statues in different sector of practice area; Our intellectual depth at providing practical real time answers to our esteemed clients is top notch.
+     	 <p>We take pride in our capacity building programme 
+			  that has made us a law firm of lawyers abreast with 
+			  the most recent case laws and statues in different 
+			  sectors of our practice areas; Our intellectual depth at providing practical real time answers to our esteemed
+			   clients is top notch.
+
+			     
+			   <p className="has-text-align-left"><a href="/contact">Contact us</a> </p>
      	 </p>
     
 		</section>

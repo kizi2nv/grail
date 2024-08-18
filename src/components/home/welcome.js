@@ -24,17 +24,17 @@ class  Welcome extends React.Component{
     </span>
 
     </h2>
-    <p className="pp"> A full service law firm that guides....  </p>
+    {/*<p className="pp"> A full service law firm that guides....  </p>*/}
 
 
 
 
 
-<h3> Igho Emmanuel Tobi, esq.
+{/*<h3> Igho Emmanuel Tobi, esq.
   </h3>
   <p className="mp">Managing Partner</p>
 
-
+*/}
 <div>
 
 </div>

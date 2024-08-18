@@ -27,7 +27,13 @@ const HumanDetails = () => (
 		<li>	Restorative justice and so-forth. </li>
 
 		</ul>
-     	 <p>Over the years, our Human Rights and Criminal Justice departments have brought smiles and hope to so many indigent persons and police brutality victims by representing them effectively at all levels of court up to the supreme court and also before different tribunals and panels of inquiry to get manifest justice. We have also partnered with the Legal Aid Council of Nigeria, the Nigeria Bar Association section on public interest and development Law and other numerous non-governmental organization to assist in the decongestion of the correctional centres all over Nigeria as we have successfully released over one hundred and fifty (150) awaiting trial inmates who were 
+     	 <p>Over the years, our Human Rights and Criminal Justice department have brought smiles and hope to so many indigent persons and 
+			  police brutality victims by representing them effectively at all levels
+			   of court up to the supreme court and also before different tribunals and panels 
+			   of inquiry to get manifest justice. We have also partnered with the Legal Aid Council of Nigeria, 
+			   the Nigeria Bar Association section on Public Interest and Development Law and other numerous Non-governmental
+			    Organization to assist in the decongestion of the correctional centres all over Nigeria as we have successfully 
+				released over one hundred and fifty (150) awaiting trial inmates who were 
 			  illegally detained as a result of the #ENDSARS protest, #IPOB protest amongst others.
      	 </p>
     

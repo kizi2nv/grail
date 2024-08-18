@@ -26,13 +26,14 @@ const AboutUs = () => (
 				<div className="breadcrumbs">
 				<div id="breadcrumbs">
              	 <span className="oiy">
-                <span className="breadcrumb_last " aria-current="page">
-                  ABOUT GRAIL ATTORNEY
+                <span className="breadcrumb_last attny " aria-current="page">
+                  ABOUT GRAIL ATTORNEYS
                   </span>
                   </span>
            		 </div>
   					</div>
 		  	<AboutDetails/>
+			
 				  </div>
 				  </div>
 			  </div>

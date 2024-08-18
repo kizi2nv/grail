@@ -8,7 +8,7 @@ const HumanDetails = () => (
         <blockquote className="wp-block-quote">
 
 		<p>We engage in expert advisory services, dispute resolution, regulatory compliances, 
-			intellectual property insurance, legal representation on contentions and non-contentions issues, legal documentations,
+			intellectual property insurance, legal representation on contentious and non-contentious issues, legal documentations,
 			 contract reviews amongst other to both major brands and start-ups in this industry.
 		</p>
 		</blockquote>

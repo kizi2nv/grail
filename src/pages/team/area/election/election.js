@@ -27,7 +27,7 @@ const AboutUs = () => (
 				<div id="breadcrumbs">
              	 <span className="oiy">
                 <span className="breadcrumb_last " aria-current="page">
-                  ABOUT GRAIL ATTORNEY
+				ELECTION PETITION
                   </span>
                   </span>
            		 </div>

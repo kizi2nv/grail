@@ -31,7 +31,7 @@ const Area = () => (
              <figure className="">
                         <img className="jpg" alt="Attorney Tobi Igho" src={right}/>
             </figure>
-            <h4>human right and criminal justice expert</h4>
+            <h4>human right and criminal justice experts</h4>
             <p>Our Human Rights and Criminal Justice department consist of some of the finest Human Rights and Criminal Justice lawyers exclusively devoted to defending and protecting the rights of our clients accused of criminal offences.
 			 Whether they are charged with a misdemeanour, a felony or a serious/capital offence, we walk by them every step of the way.... <span>
              <Link className="" to="/team/area/human/human">
@@ -47,8 +47,11 @@ const Area = () => (
                         <img className="jpg" alt="Attorney Tobi Igho" src={adr }/>
                    
          </figure>
-            <h4>litigation and alterntive dispute resolution(adr)  expert</h4>
-            <p>Over the years, we have been acknowledged and renowned as a litigation law firm across all practice areas. Our litigation department has enjoyed enviable reputation as seasoned advocate dedicated to the cause of our clients in contentious trial and appellate matters. Regardless, the interest of our client remains our priority. Thus, the option of out- of-court settlement that gives real value to our
+            <h4>litigation and alterntive dispute resolution(adr) </h4>
+            <p>Over the years, we have been acknowledged and renowned as a litigation law firm across all practice areas. 
+                Our litigation department has enjoyed enviable reputation as seasoned advocates dedicated to the cause of our
+                 clients in contentious trial and appellate matters. Regardless, the interest of our client remains our priority. 
+                 Thus, the option of out- of-court settlement that gives real value to our
 			 client is always open in other to save our clients time and resources alongside preserving valuable business relationship.... <span>
              <Link className="" to="/team/area/litigation/litigation">
                  Read more
@@ -85,7 +88,8 @@ const Area = () => (
                 </figure>
             <h4>real estate and property management law</h4>
             <p>Our diligent team of lawyers in this department provides
-			 top notch advisory services to both our local and international clients on all aspects of real estate and property management..... <span>
+			 top notch advisory services to both our local and international client 
+             on all aspects of real estate and property management..... <span>
              <Link className="" to="/team/area/estate/estate">
                  Read more
               </Link>
@@ -116,7 +120,7 @@ const Area = () => (
                         <img className="jpg" alt="Attorney Tobi Igho" src={election}/>
                     </picture>
                 </figure>
-            <h4>election petition expert</h4>
+            <h4>election petition experts</h4>
             <p>Election petition is sui generis.
 			 Our capacity building programme has helped our 
 			 attorneys carve a niche for themselves in this unique area of law. .... <span>
@@ -168,7 +172,7 @@ const Area = () => (
                     </picture>
         </figure>
             <h4>Oil and Gas law</h4>
-            <p>GThe fulcrum of the Nigeria economy is oil and gas. The 
+            <p>The fulcrum of the Nigeria economy is oil and gas. The 
 			important and complex nature of this industry has brought about so many legal issues that demands expert legal services..... <span>
              <Link className="" to="/team/area/oil/oil">
                  Read more

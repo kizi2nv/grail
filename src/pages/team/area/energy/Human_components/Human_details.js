@@ -17,7 +17,7 @@ const HumanDetails = () => (
 		<ul>
 		<li> General legal regulatory framework in the energy sector including foreign investment laws and regimes in Nigeria.</li>
 		<li>	Expert advisory services on ownership and construction of power projects and other energy matters.</li>
-		<li>	Obtaining relevant and authorisations.</li>
+		<li>	Obtaining relevant licenses and authorizations.</li>
 		<li>	Negotiating and drafting all industry commercial agreement such as joint ventures, development agreement, sales and purchase agreement among others.</li>
 		<li>	Due diligence on all energy assets and contracts.</li>
 		<li>	Acquisition and disposal of all energy assets.</li>
