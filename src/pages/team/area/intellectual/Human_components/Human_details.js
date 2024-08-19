@@ -21,7 +21,7 @@ const HumanDetails = () => (
 		<li>	Patents and designs.</li>
 		<li>	Trade secrets.</li>
 		<li>	Product Registration.</li>
-		<li>	Contentious and non-contentiouss intellectual property 
+		<li>	Contentious and non-contentious intellectual property 
 			matters before administrative tribunals, arbitration panels, trials and appellate courts.</li>
 
 		</ul>

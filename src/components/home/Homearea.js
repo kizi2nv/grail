@@ -70,7 +70,7 @@ const Homearea = () => (
                 </figure>
             <h4>real estate and property management</h4>
             <p>Due diligence is our watchword. We  are equiped with modern and international best practice
-                 methodologies to ensures our esteemed client do not purchase defective or encumbered title.
+                 methodologies to ensure our esteemed client do not purchase defective or encumbered title.
             </p>
             <Link className="navbar-item" to="/team/area/estate/estate">
                  Read more

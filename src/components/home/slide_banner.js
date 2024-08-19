@@ -21,7 +21,7 @@ class  SlideBanner extends React.Component{
    <Carousel.Item className="sldone_bg" style={{"height":"350px"}} interval={5200}>
      <div className="word" >
      <Fade right>
-       <h3> human right and criminal justtice</h3> 
+       <h3> human right and criminal justice</h3> 
       </Fade>
       <Fade left>
       <p> Unparalleled advocacy is assured in guiding your path to freedom and justice</p>

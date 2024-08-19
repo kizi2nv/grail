@@ -18,7 +18,7 @@ const HumanDetails = () => (
 		</blockquote>
         <p className="has-regular-font-size">In the spirit of out of court settlement, 
 		our ADR department who are adept at facilitating constructive dialogue, 
-		fostering collaboration solutions and resolving disputes efficiently outside the court room have successfully:
+		fostering collaborative solutions and resolving disputes efficiently outside the court room have successfully:
 		</p>
      	 <ul>
 		 <li>	Brought disputing parties to a round table, extinguished hostilities and 

@@ -58,15 +58,16 @@ const Footer = class extends React.Component {
                       </Link>
                     </li>
                     <li>
-                      <Link className="navbar-item" to="/products">
-                        Products
-                      </Link>
+                    <Link className="navbar-item" to="/team/area/area">
+            Practice Area
+              </Link>
                     </li>
-                    <li>
-                      <Link className="navbar-item" to="/contact/examples">
+                    {/* <li>
+                     <Link className="navbar-item" to="/contact/examples">
                         Form Examples
                       </Link>
                     </li>
+                    */}
                     <li>
                       <a className="navbar-item" href="/admin/" target="_blank" rel="noopener noreferrer">
                         Admin
@@ -131,11 +132,11 @@ const Footer = class extends React.Component {
                 <br/>
                 Attorney Advertising&nbsp;|&nbsp;
                </a>
-               <a href="https://disclaimer/">						  
+               <a href="/">						  
                  Disclaimer
                 </a> 
                <span> | </span>  
-                <a href="https://reative.com/" target="_blank" rel="noreferrer"> 						
+                <a href="/" target="_blank" rel="noreferrer"> 						
                    Website Development
                 </a>
                 by  

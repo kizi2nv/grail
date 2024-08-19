@@ -4,14 +4,23 @@ import React from 'react';
 import { useForm, ValidationError } from '@formspree/react';
 import Roll from "react-reveal/Roll"
 import './form.scss'
-
+import { Link } from 'gatsby'
 
 
 function ContactForm() {
   const [state, handleSubmit] = useForm("xzbyydew");
   if (state.succeeded) {
       return( 
-        <p>thank!</p>
+        <section>
+ <p>Thank !</p>
+        
+        <Link className="navbar-item" to="/">
+       Back to homepage
+     </Link>
+
+        </section>
+       
+
       )
   }
   return (
@@ -44,7 +53,7 @@ function ContactForm() {
                            field="first"
                            errors={state.errors}
                         />
-                    <label htmlFor="first">First <span>*</span></label>
+                    <label htmlFor="first">First Name: <span></span></label>
                   </span>                
                 <span id="input_1_5_6_container" className="name_last">
                      <input 
@@ -58,12 +67,12 @@ function ContactForm() {
                       field="last"
                       errors={state.errors}
                      />                         
-                <label htmlFor="last">Last<span>*</span> </label>
+                <label htmlFor="last">Last Name: <span></span> </label>
               </span>                  
             </div>
           </li>
           <li id="field_1_2" className="gfield gfield_contains_required field_sublabel_below field_description_below gfield_visibility_visible">
-            <label className="gfield_label" htmlFor="phone">Phone Number <span>*</span></label>
+            <label className="gfield_label" htmlFor="phone">Phone Number: <span></span></label>
               <div className="ginput_container ginput_container_phone">
                 <input 
                   name="phone" 
@@ -82,7 +91,7 @@ function ContactForm() {
             </li>
         
              <li id="field_1_3" className="gfield gfield_contains_required field_sublabel_below field_description_below gfield_visibility_visible">
-               <label className="gfield_label" htmlFor="email">Email Address <span>*</span></label>
+               <label className="gfield_label" htmlFor="email">Email Address: <span></span></label>
                   <div className="ginput_container ginput_container_email">
                     <input 
                     name="email" 
@@ -102,7 +111,7 @@ function ContactForm() {
                      
 
                    <li id="field_1_4" className="gfield gfield_contains_required field_sublabel_below field_description_below gfield_visibility_visible">
-                      <label className="gfield_label" htmlFor="message"> How can we help you? <span>*</span></label>                
+                      <label className="gfield_label" htmlFor="message"> How can we help you? <span></span></label>                
                         <div className="ginput_container ginput_container_textarea">
                             <textarea 
                               name="message"  
