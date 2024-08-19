@@ -21,6 +21,7 @@ import corporate from './3.jpg'
 import nd from './2nd.jpg'
 import met from './7.jpg'
 import right from './3.png'
+import dad from './dad.png'
 import litigation from './2.jpg'
 import intellectual from './5.jpg'
 import election from './6.jpg'
@@ -67,7 +68,7 @@ const Partners = () => (
       
         <div className="human">
              <figure className="0k">
-                        <img className="jpg" alt="Attorney Tobi Igho" src={right}/>
+                        <img className="jpg" alt="Attorney Tobi Igho" src={dad}/>
             </figure>
            
             <h4>dad</h4>
