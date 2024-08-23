@@ -1,11 +1,10 @@
 import React from 'react'
-import Areas from '../components/home/areas'
+
 import Carousel from '../components/home/carousel'
 import Crime from '../components/home/crime'
 import Describe from '../components/home/describe'
-import Meet from '../components/home/meet'
 import '../components/home/home.css'
-import Banner from '../components/home/banner'
+
 import SlideBanner from '../components/home/slide_banner'
 import Homearea from '../components/home/Homearea'
 import Welcome from '../components/home/welcome'

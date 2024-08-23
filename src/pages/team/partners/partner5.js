@@ -1,55 +1,61 @@
 import React from 'react';
 import {Link} from 'gatsby'
 import Layout from '../../../components/Layout'
-import Header5 from './partner5_component/header5'
-import Details5 from './partner5_component/details5'
-import Credentials5 from './partner5_component/credentials5'
-import Bloglinks from '../tobi/tobi_components/blog_links';
+import right from './3.png'
+import corporate from './3.jpg'
 
 
 
 
-
-const Partner5 = () => (
-	<Layout>
-    <section className="content-block  ">
-     <div id="content" className="site_co">
-		<Header5/>
-		<section id="primary" className="content-area--single-team">
-		<main id="main" className="site-main site-main--single-team" role="main">
-      	<article id="post-1891" className="post-1891 team type-team status-publish has-post-thumbnail hentry alpha-m">
-		   <div className="container">
-			  <div className="row">
-				 <Bloglinks/>
-				<div className="col-12 col-lg-7 offset-lg-1 content-area">
-				<div className="bio-page__entry-content entry-content">
-				<div className="breadcrumbs">
-				<div id="breadcrumbs">
-            	<span>
-             	 <span className="oiy">
-                <Link to="/team/partners/partner4">Partner: </Link>  
-                <span className="breadcrumb_last " aria-current="page">
-                  PARTNER1 NAME
-                  </span>
-                  </span>
-                  </span>
-           			 </div>
-  					</div>
-		  	
-					  <Details5/>
-
-			<Credentials5/>
-				  </div>
-				  </div>
-			  </div>
-		  </div>
-
-      </article>
-		</main>
-	</section>
-</div>  
+const Partner1 = () => (
+<Layout>
+    <section className="part  ">
+     <div className="first">
+	
+	 <figure className="k">
+                <img className="jp" alt="Attorney Tobi Igho" src={corporate}/>
+				<h4> RACHEAL TOBI (CIPM)</h4>
+				<p> Human Resource Manager</p>
+				<div>
+				<a className="bio-page__link" href="gmail.com">
+									Email:
+                                    <span itemProp="email" content="">
+                                      
+                                    </span>
+                                 </a>
+				</div>
+                          <a className="bio-page__link" href="tel:(+234) 8162809457">
+								  Phone No.:
+                                <span itemProp="telephone" content="(+234) 8162809457">
+                                       (+234) 8162809457
+							  </span>
+				       </a>
+        </figure>
+	<p className="details">	
+	Racheal Tobi is the Human Resource Manager at Grail Attorneys.
+		 </p>
+		 <p className="details">
+		 Racheal is a certified Human Resource Practitioner with six years industry 
+		 experience overseeing the Human Resource Department and working to implement programs and changes that enhance the firm. 
+		 Knowledgeable about employment law and effective organizational planning. 
+		 Highly competent communicator skilled in developing initiatives that improves the firm’s profitability and growth.	
+		 </p>
+		 <p className="details">
+		 Racheal has proven track record of fostering collaborative and innovative work environment resulting in excellent work, 
+		 and leading teams to work towards the firm’s goals. 
+		 Experienced in leveraging technology to enhance online engagement and brand interaction which sets her apart.	
+		 </p>
+		 <p className="details">
+		 Racheal has taken keen interest in HRCI and has taken steps to broaden her horizon.	
+		 </p>
+            
+	</div> 
+	
+		
+	
     </section>
 	</Layout>
+
 )
 
-export default Partner5
+export default Partner1

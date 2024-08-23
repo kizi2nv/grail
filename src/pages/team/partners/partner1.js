@@ -1,57 +1,79 @@
 import React from 'react';
 import {Link} from 'gatsby'
 import Layout from '../../../components/Layout'
-
-
-import Header1 from '../partners/partner1_components/header1'
-import Details1 from '../partners/partner1_components/details1'
-import Credentials1 from '../partners/partner1_components/credentials1'
-import Bloglinks from '../tobi/tobi_components/blog_links';
-
-
+import right from './3.png'
+import election from './6.jpg'
 
 
 
 const Partner1 = () => (
-	<Layout>
-    <section className="content-block  ">
-     <div id="content" className="site_co">
-		<Header1/>
-		<section id="primary" className="content-area--single-team">
-		<main id="main" className="site-main site-main--single-team" role="main">
-      	<article id="post-1891" className="post-1891 team type-team status-publish has-post-thumbnail hentry alpha-m">
-		   <div className="container">
-			  <div className="row">
-				 <Bloglinks/>
-				<div className="col-12 col-lg-7 offset-lg-1 content-area">
-				<div className="bio-page__entry-content entry-content">
-				<div className="breadcrumbs">
-				<div id="breadcrumbs">
-            	<span>
-             	 <span className="oiy">
-                <Link to="/team/partners/partner1">Partner: </Link>  
-                <span className="breadcrumb_last " aria-current="page">
-                  PARTNER1 NAME
-                  </span>
-                  </span>
-                  </span>
-           			 </div>
-  					</div>
-		  	<Details1/>
+<Layout>
+    <section className="part  ">
+     <div className="first">
+	 <figure className="k">
+                <img className="jp" alt="Attorney Tobi Igho" src={right}/>
+				<h4>IGHO EMMANUEL TOBI</h4>
+				<p> Managing Partner</p>
+				<div>
+				<a className="bio-page__link" href="gmail.com">
+									Email:
+                                    <span itemProp="email" content="">
+                                      
+                                    </span>
+                                 </a>
+				</div>
+				
+					
+                                <a className="bio-page__link" href="tel:(+234) 814-775-8121">
+									  Phone No. :  
+                                    <span itemProp="telephone" content="(+234) 814-775-8121">
+                                           (+234) 814-775-8121 <br /><span itemProp="telephone" content=" (+234) 7059005104">
+                                        (+234) 705-900-5104
+                                    </span>
+									
+                                    </span>
+									
+									
+                                 </a>
+        </figure>
+	<p className="details">	 
+	Igho is the managing partner of Grail Attorneys. 
+		</p>
 
+		<p className="details">	 
+		Igho is a diligent and efficient lawyer with over a decade experience. 
+		He has distinguished himself and has shown proficiency in both contentious and 
+		non-contentious matters. He has represented a pool of local and international clients and gotten over twenty (20) 
+		superior court judgments in their favour in highly contentious matters that span 
+		across all areas of his practice especially criminal litigation, civil litigation and petroleum industry litigation.
+		</p>
 
-			<Credentials1/>
-				  </div>
-				  </div>
-			  </div>
-		  </div>
+		<p className="details">	
+		Igho has also advised the U.S department Home security, U.S Immigration
+		 service on the process and validity of dissolution of marriage under the
+		  Marriage Act in Nigeria. His non-contentious practice has also seen him give expert advisory services to
+		   multinationals and start-ups in the Energy industry as well as 
+		providing professional guidance on complex corporate and commercial transactions across all areas of his practice. 
+		
+		</p>
+		<p className="details">	 
+		He is an ardent believer in the Rule of law and protection of the Rights of citizens. 
+		He has given pro-bone services to help enforce the Fundamental Rights of citizens and decongestion of the correctional
+		 centres, and this has made the Nigeria Bar Association Umuahia Branch co-opt him into the Human Rights Committee,
+		</p>
 
-      </article>
-		</main>
-	</section>
-</div>  
+		<p className="details">	 
+		Igho has keen interest in self-development and have thus, 
+		taken steps to broaden his horizon via various professional courses. 
+		</p>
+
+	</div> 
+	
+		
+	
     </section>
 	</Layout>
+
 )
 
 export default Partner1

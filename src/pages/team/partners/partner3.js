@@ -1,55 +1,63 @@
 import React from 'react';
 import {Link} from 'gatsby'
 import Layout from '../../../components/Layout'
-import Header3 from '../partners/partner3_component/header3'
-import Details3 from '../partners/partner3_component/details3'
-import Credentials3 from '../partners/partner3_component/credentials3'
-import Bloglinks from '../tobi/tobi_components/blog_links';
+import right from './3.png'
+import litigation from './2.jpg'
+
+
+
+const Partner1 = () => (
+<Layout>
+    <section className="part  ">
+     <div className="first">
+	 
 
 
 
 
+<figure className="k">
+                <img className="jp" alt="Attorney Tobi Igho" src={litigation}/>
+				<h4>ANDREW NWANKWO</h4>
+				<p> Associate Partner</p>
+				<div>
+				<a className="bio-page__link" href="gmail.com">
+									Email:
+                                    <span itemProp="email" content="">
+                                      
+                                    </span>
+                                 </a>
+				</div>
+                          <a className="bio-page__link" href="tel:(+234) 7067827647">
+								  Phone No.:
+                                <span itemProp="telephone" content="(+234) 7067827647">
+                                       (+234) 7067827647
+							  </span>
+				       </a>
+        </figure>
+	<p className="details">	
+	Andrew is an Associate Partner at Grail Attorneys.
+</p>
+<p className="details">	
+Andrew is a highly respected legal practitioner and an expert in litigation, competition law and corporate consultancy.
+</p>
+<p className="details">	
 
-const Partner3 = () => (
-	<Layout>
-    <section className="content-block  ">
-     <div id="content" className="site_co">
-		<Header3/>
-		<section id="primary" className="content-area--single-team">
-		<main id="main" className="site-main site-main--single-team" role="main">
-      	<article id="post-1891" className="post-1891 team type-team status-publish has-post-thumbnail hentry alpha-m">
-		   <div className="container">
-			  <div className="row">
-				 <Bloglinks/>
-				<div className="col-12 col-lg-7 offset-lg-1 content-area">
-				<div className="bio-page__entry-content entry-content">
-				<div className="breadcrumbs">
-				<div id="breadcrumbs">
-            	<span>
-             	 <span className="oiy">
-                <Link to="/team/partners/partner3">Partner: </Link>  
-                <span className="breadcrumb_last " aria-current="page">
-                  PARTNER1 NAME
-                  </span>
-                  </span>
-                  </span>
-           			 </div>
-  					</div>
-		  	<Details3/>
+With over a decade experience, he sits on the boards of various companies, bringing extensive legal and business acumen to Grail Attorneys.
+</p>
+<p className="details">	
 
-
-			<Credentials3/>
-				  </div>
-				  </div>
-			  </div>
-		  </div>
-
-      </article>
-		</main>
-	</section>
-</div>  
+Andrew heads the corporate/commercial department at Grail Attorneys.
+</p>
+<p className="details">	
+His insights are crucial in navigating legal complexities and ensuring robust outcomes in every brief handled at Grail Attorneys.
+</p>      
+	</div> 
+	
+		
+	
     </section>
 	</Layout>
+
 )
 
-export default Partner3
+export default Partner1

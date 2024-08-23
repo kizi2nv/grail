@@ -1,55 +1,56 @@
 import React from 'react';
 import {Link} from 'gatsby'
 import Layout from '../../../components/Layout'
-import Header7 from './partner7_component/header7'
-import Details7 from './partner7_component/details7'
-import Credentials7 from './partner7_component/credentials7'
-import Bloglinks from '../tobi/tobi_components/blog_links';
+import right from './3.png'
+import intellectual from './5.jpg'
 
 
 
 
+const Partner1 = () => (
+<Layout>
+    <section className="part  ">
+	
 
-const Partner7 = () => (
-	<Layout>
-    <section className="content-block  ">
-     <div id="content" className="site_co">
-		<Header7/>
-		<section id="primary" className="content-area--single-team">
-		<main id="main" className="site-main site-main--single-team" role="main">
-      	<article id="post-1891" className="post-1891 team type-team status-publish has-post-thumbnail hentry alpha-m">
-		   <div className="container">
-			  <div className="row">
-				 <Bloglinks/>
-				<div className="col-12 col-lg-7 offset-lg-1 content-area">
-				<div className="bio-page__entry-content entry-content">
-				<div className="breadcrumbs">
-				<div id="breadcrumbs">
-            	<span>
-             	 <span className="oiy">
-                <Link to="/team/partners/partner4">Partner: </Link>  
-                <span className="breadcrumb_last " aria-current="page">
-                  PARTNER1 NAME
-                  </span>
-                  </span>
-                  </span>
-           			 </div>
-  					</div>
-		  	
-					  <Details7/>
 
-			<Credentials7/>
-				  </div>
-				  </div>
-			  </div>
-		  </div>
 
-      </article>
-		</main>
-	</section>
-</div>  
+     <div className="first">
+	 <figure className="k">
+                <img className="jp" alt="Attorney Tobi Igho" src={intellectual}/>
+				<h4>  LUCKY JAMES.</h4>
+				<p> Associate</p>
+				<div>
+				<a className="bio-page__link" href="gmail.com">
+									Email:
+                                    <span itemProp="email" content="">
+                                      
+                                    </span>
+                                 </a>
+				</div>
+                          <a className="bio-page__link" href="tel:(+234)8085741081">
+								  Phone No.:
+                                <span itemProp="telephone" content="(+234) 8085741081.">
+                                       (+234) 8085741081
+							  </span>
+				       </a>
+        </figure>
+	<p className="details">
+	Lucky James is an associate at Grail Attorneys.
+	</p>
+		
+	<p className="details"> Lucky is a very diligent, vibrant and goal 
+	driven attorney, who is very proficient in criminal litigation, corporate practice, intellectual property practice.</p>
+	<p className="details"> His immense advocacy and ADR skills have also enabled him carve a niche for
+	 himself in representing clients effectively both in litigation matters and out of court dispute resolution.</p> 
+	<p className="details"></p>
+	<p className="details"></p>
+	</div> 
+	
+		
+	
     </section>
 	</Layout>
+
 )
 
-export default Partner7
+export default Partner1

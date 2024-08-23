@@ -34,6 +34,8 @@ import Fade from "react-reveal/Fade"
 
 const Partners = () => (
 	<Layout>
+       
+
 		 <div className="team_head">
              <div  className="bk0">
          <Fade left >
@@ -41,6 +43,8 @@ const Partners = () => (
         </Fade>
         </div>
         </div> 
+
+    
 
     <div className="partner_container">
 	{/*<PartnerPreview1/>
@@ -51,7 +55,9 @@ const Partners = () => (
 	<PartnerPreview6/>
 	<PartnerPreview7/>
 	<PartnerPreview8/>*/}
-
+   <p>We take pride in our pragmatic, bespoke and efficient legal representation which has 
+                been made possible by our indefatigable team of highly experienced, diligent and purpose-driven 
+                individuals.</p>
     
     <div className="practices ">
         <div className="human">
@@ -59,9 +65,9 @@ const Partners = () => (
                         <img className="jpg" alt="Attorney Tobi Igho" src={right}/>
             </figure>
            
-            <h4>igho</h4>
-            <p>portfolio</p>
-            <Link className="navbar-item" to="/team/about_us/about_us">
+            <h4>IGHO EMMANUEL TOBI</h4>
+            <p>Managing Partner</p>
+            <Link className="navbar-item" to="/team/partners/partner1">
                  Read more
               </Link>
         </div>
@@ -71,22 +77,20 @@ const Partners = () => (
                         <img className="jpg" alt="Attorney Tobi Igho" src={dad}/>
             </figure>
            
-            <h4>dad</h4>
-            <p>portfolio</p>
-            <Link className="navbar-item" to="/team/about_us/about_us">
+            <h4>JOSEPH OCHUKO TOBI</h4>
+            <p>Senior Partner</p>
+            <Link className="navbar-item" to="/team/partners/partner2">
                  Read more
               </Link>
         </div>
         <div className="litigation">
-        <figure className="">
-                   
-                      
+        <figure className="">                      
                         <img className="jpg" alt="Attorney Tobi Igho" src={litigation }/>
                    
                 </figure>
-				<h4>White beards</h4>
-            <p>portfolio</p>
-            <Link className="navbar-item" to="/team/area/area">
+				<h4>ANDREW NWANKWO</h4>
+				<p> Associate Partner</p>
+            <Link className="navbar-item" to="/team/partners/partner3">
                  Read more
               </Link>
         </div>
@@ -95,9 +99,9 @@ const Partners = () => (
                         <img className="jpg" alt="Attorney Tobi Igho" src={nd}/>
             </figure>
            
-            <h4>New guy</h4>
-            <p>portfolio</p>
-            <Link className="navbar-item" to="/team/about_us/about_us">
+            <h4> FOLMI YOHANNA, L.L.B, BL, LLM, Ph.D (in view)</h4>
+				<p> Intellectual property consultant</p>
+            <Link className="navbar-item" to="/team/partners/partner4">
                  Read more
               </Link>
         </div>
@@ -105,9 +109,9 @@ const Partners = () => (
         <figure className="0k">    
                         <img className="jpg" alt="Attorney Tobi Igho" src={corporate}/>
                 </figure>
-				<h4>wifee</h4>
-            <p>portfolio</p>
-            <Link className="navbar-item" to="/team/area/area">
+                <h4> RACHEAL TOBI (CIPM)</h4>
+				<p> Human Resource Manager</p>
+            <Link className="navbar-item" to="/team/partners/partner5">
                  Read more
               </Link>
         </div>
@@ -117,9 +121,9 @@ const Partners = () => (
                         <img className="jpg" alt="Attorney Tobi Igho" src={estate}/>
                     </picture>
                 </figure>
-				<h4>boss</h4>
-            <p>portfolio</p>
-            <Link className="navbar-item" to="/team/area/area">
+                <h4>  EFFA PAULINUS, OFEM</h4>
+				<p> Senior Associate</p>
+            <Link className="navbar-item" to="/team/partners/partner6">
                  Read more
               </Link>
         </div>
@@ -130,10 +134,10 @@ const Partners = () => (
                         <img className="jpg" alt="Attorney Tobi Igho" src={intellectual}/>
                     </picture>
                 </figure>
-				<h4>Name</h4>
-            <p>portfolio</p>
-            <Link className="navbar-item" to="/team/area/area">
-                 Read more...
+                <h4>  LUCKY JAMES.</h4>
+				<p> Associate</p>
+            <Link className="navbar-item" to="/team/partners/partner7">
+                 Read more
               </Link>
         </div>
         <div>
@@ -142,10 +146,10 @@ const Partners = () => (
                         <img className="jpg" alt="Attorney Tobi Igho" src={election}/>
                     </picture>
                 </figure>
-				<h4>Name</h4>
-            <p>portfolio</p>
-            <Link className="navbar-item" to="/team/area/area">
-                 Read more...
+				<h4>  ELEKWACHI CHIDERA</h4>
+				<p> Associate</p>
+            <Link className="navbar-item" to="/team/partners/partner8">
+                 Read more
               </Link>
         </div>
         <div>
@@ -154,10 +158,10 @@ const Partners = () => (
                         <img className="jpg" alt="Attorney Tobi Igho" src={met}/>
                     </picture>
         </figure>
-		<h4>Name</h4>
-            <p>portfolio</p>
-            <Link className="navbar-item" to="/team/area/area">
-                 Read more...
+        <h4> DIVINE CHIDIEBERE CHIMEREMEZE</h4>
+				<p> Associate</p>
+            <Link className="navbar-item" to="/team/partners/partner9">
+                 Read more
               </Link>
         </div>
 		<div>
@@ -166,11 +170,11 @@ const Partners = () => (
                         <img className="jpg" alt="Attorney Tobi Igho" src={last}/>
                     </picture>
         </figure>
-		<h4>Name</h4>
-            <p>portfolio</p>
-            <Link className="navbar-item" to="/team/area/area">
-                 Read more...
-            </Link>
+        <h4> CYNTHIA IFUNANYACHI</h4>
+			<p> Chief clerical officer</p>
+            <Link className="navbar-item" to="/team/partners/partner10">
+                 Read more
+              </Link>
         </div>
 
         </div>

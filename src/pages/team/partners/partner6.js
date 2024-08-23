@@ -1,55 +1,47 @@
 import React from 'react';
 import {Link} from 'gatsby'
 import Layout from '../../../components/Layout'
-import Header6 from './partner6_component/header6'
-import Details6 from './partner6_component/details6'
-import Credentials6 from './partner6_component/credentials6'
-import Bloglinks from '../tobi/tobi_components/blog_links';
+import right from './3.png'
+import estate from './4.jpg'
 
 
 
 
-
-const Partner6 = () => (
-	<Layout>
-    <section className="content-block  ">
-     <div id="content" className="site_co">
-		<Header6/>
-		<section id="primary" className="content-area--single-team">
-		<main id="main" className="site-main site-main--single-team" role="main">
-      	<article id="post-1891" className="post-1891 team type-team status-publish has-post-thumbnail hentry alpha-m">
-		   <div className="container">
-			  <div className="row">
-				 <Bloglinks/>
-				<div className="col-12 col-lg-7 offset-lg-1 content-area">
-				<div className="bio-page__entry-content entry-content">
-				<div className="breadcrumbs">
-				<div id="breadcrumbs">
-            	<span>
-             	 <span className="oiy">
-                <Link to="/team/partners/partner4">Partner: </Link>  
-                <span className="breadcrumb_last " aria-current="page">
-                  PARTNER1 NAME
-                  </span>
-                  </span>
-                  </span>
-           			 </div>
-  					</div>
-		  	
-					  <Details6/>
-
-			<Credentials6/>
-				  </div>
-				  </div>
-			  </div>
-		  </div>
-
-      </article>
-		</main>
-	</section>
-</div>  
+const Partner1 = () => (
+<Layout>
+    <section className="part  ">
+     <div className="first">
+	
+<figure className="k">
+                <img className="jp" alt="Attorney Tobi Igho" src={estate}/>
+				<h4>  EFFA PAULINUS, OFEM</h4>
+				<p> Senior Associate</p>
+				<div>
+				<a className="bio-page__link" href="gmail.com">
+									Email:
+                                    <span itemProp="email" content="">
+                                      
+                                    </span>
+                                 </a>
+				</div>
+                          <a className="bio-page__link" href="tel:(+234) 8162874331 ">
+								  Phone No.:
+                                <span itemProp="telephone" content="(+234) 8162874331.">
+                                       (+234) 8162874331
+							  </span>
+				       </a>
+        </figure>
+	<p className="details">	Paulinus is a Senior Associate at Grail Attorneys.</p>
+		
+	<p className="details">Paulinus is a goal oriented attorney, discreet and proficient in litigation with great interest and expert skills in Police, EFCC and DSS negotiation. </p>
+	<p className="details">Paulinus promotes unity and charge colleagues to dare the impossible with the intent of surmounting every challenge.</p>     
+	</div> 
+	
+		
+	
     </section>
 	</Layout>
+
 )
 
-export default Partner6
+export default Partner1
