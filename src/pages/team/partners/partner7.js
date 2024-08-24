@@ -1,10 +1,6 @@
 import React from 'react';
-import {Link} from 'gatsby'
 import Layout from '../../../components/Layout'
-import right from './3.png'
 import intellectual from './5.jpg'
-
-
 
 
 const Partner1 = () => (
@@ -36,7 +32,7 @@ const Partner1 = () => (
 	</p>
 		
 	<p className="details"> Lucky is a very diligent, vibrant and goal 
-	driven attorney, who is very proficient in criminal litigation, corporate practice and intellectual property practice.</p>
+	driven attorney, who is very proficient in criminal litigation, corporate practice and intellectual property law.</p>
 	<p className="details"> His immense advocacy and ADR skills have also enabled him carve a niche for
 	 himself in representing clients effectively both in litigation matters and out of court dispute resolution.</p> 
 	<p className="details"></p>

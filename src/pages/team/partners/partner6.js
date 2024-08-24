@@ -1,7 +1,7 @@
 import React from 'react';
-import {Link} from 'gatsby'
+
 import Layout from '../../../components/Layout'
-import right from './3.png'
+
 import estate from './4.jpg'
 
 

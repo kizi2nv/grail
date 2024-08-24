@@ -24,7 +24,7 @@ const Partner1 = () => (
                           <a className="ii" href="tel:(+234) 7059005104">
 									  Phone No. :  
                                     <span itemProp="telephone" content=" (+234) 7059005104">
-                                        (+234) 7059005104
+                                        (+234) 814-775-8121
 									
                                     </span>
 									

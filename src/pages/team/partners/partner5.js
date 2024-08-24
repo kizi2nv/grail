@@ -1,10 +1,6 @@
 import React from 'react';
-import {Link} from 'gatsby'
 import Layout from '../../../components/Layout'
-import right from './3.png'
 import corporate from './3.jpg'
-
-
 
 
 const Partner1 = () => (
@@ -35,7 +31,7 @@ const Partner1 = () => (
 	Racheal Tobi is the Human Resource Manager at Grail Attorneys.
 		 </p>
 		 <p className="details">
-		 Racheal is a certified Human Resource Practitioner with years industry 
+		 Racheal is a certified Human Resource Practitioner with years of industry 
 		 experience overseeing the Human Resource Department and working to implement programs and changes that enhance the firm. 
 		 Knowledgeable about employment law and effective organizational planning. 
 		 Highly competent communicator skilled in developing initiatives that improves the firm’s profitability and growth.	
