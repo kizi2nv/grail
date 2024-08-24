@@ -8,28 +8,28 @@ import nd from './2nd.jpg'
 
 const Partner1 = () => (
 <Layout>
-    <section className="part  ">
-     <div className="first">
-
-<figure className="k">
-                <img className="jp" alt="Attorney Tobi Igho" src={nd}/>
+<section className="parti">
+     <div className="hey">
+	 <figure className="">
+                <img className="" alt="FOLMI YOHANNA" src={nd}/>
 				<h4> FOLMI YOHANNA, L.L.B, BL, LLM, Ph.D (in view)</h4>
-				<p> Intellectual property consultant</p>
-				<div>
-				<a className="bio-page__link" href="gmail.com">
+				<p className="senior"> Intellectual property consultant</p>
+				<div className="mail">
+				<a className="ii" href="gmail.com">
 									Email:
-                                    <span itemProp="email" content="">
+                            <span itemProp="email" content="">
                                       
-                                    </span>
+                        	</span>
                                  </a>
 				</div>
-                          <a className="bio-page__link" href="tel:(+234) 7039268810">
+                          <a className="ii" href="tel:(+234) 7039268810">
 								  Phone No.:
                                 <span itemProp="telephone" content="(+234) 7039268810">
                                        (+234) 7039268810
 							  </span>
 				       </a>
         </figure>
+		<div>
 	<p className="details">	
 	Folmi is an intellectual property consultant at Grail Attorneys.
 		 </p>
@@ -67,7 +67,7 @@ const Partner1 = () => (
 	</div> 
 	
 		
-	
+	</div>
     </section>
 	</Layout>
 

@@ -9,33 +9,33 @@ import corporate from './3.jpg'
 
 const Partner1 = () => (
 <Layout>
-    <section className="part  ">
-     <div className="first">
-	
-	 <figure className="k">
-                <img className="jp" alt="Attorney Tobi Igho" src={corporate}/>
+<section className="parti">
+     <div className="hey">
+	 <figure className="">
+                <img className="" alt="RACHEAL TOBI" src={corporate}/>
 				<h4> RACHEAL TOBI (CIPM)</h4>
-				<p> Human Resource Manager</p>
-				<div>
-				<a className="bio-page__link" href="gmail.com">
+				<p className="senior"> Human Resource Manager</p>
+				<div className="mail">
+				<a className="ii" href="gmail.com">
 									Email:
                                     <span itemProp="email" content="">
                                       
                                     </span>
                                  </a>
 				</div>
-                          <a className="bio-page__link" href="tel:(+234) 8162809457">
+                          <a className="ii" href="tel:(+234) 8162809457">
 								  Phone No.:
                                 <span itemProp="telephone" content="(+234) 8162809457">
                                        (+234) 8162809457
 							  </span>
 				       </a>
         </figure>
+		<div>
 	<p className="details">	
 	Racheal Tobi is the Human Resource Manager at Grail Attorneys.
 		 </p>
 		 <p className="details">
-		 Racheal is a certified Human Resource Practitioner with six years industry 
+		 Racheal is a certified Human Resource Practitioner with years industry 
 		 experience overseeing the Human Resource Department and working to implement programs and changes that enhance the firm. 
 		 Knowledgeable about employment law and effective organizational planning. 
 		 Highly competent communicator skilled in developing initiatives that improves the firm’s profitability and growth.	
@@ -51,7 +51,7 @@ const Partner1 = () => (
             
 	</div> 
 	
-		
+		</div>
 	
     </section>
 	</Layout>

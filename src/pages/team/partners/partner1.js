@@ -1,41 +1,38 @@
 import React from 'react';
-import {Link} from 'gatsby'
 import Layout from '../../../components/Layout'
 import right from './3.png'
-import election from './6.jpg'
+
 
 
 
 const Partner1 = () => (
 <Layout>
-    <section className="part  ">
-     <div className="first">
-	 <figure className="k">
-                <img className="jp" alt="Attorney Tobi Igho" src={right}/>
+<section className="parti">
+     <div className="hey">
+	 <figure className="">
+                <img className="" alt="Attorney Tobi Igho" src={right}/>
 				<h4>IGHO EMMANUEL TOBI</h4>
-				<p> Managing Partner</p>
-				<div>
-				<a className="bio-page__link" href="gmail.com">
+				<p  className="senior"> Managing Partner</p>
+				<div className="mail">
+				<a className="ii" href="gmail.com">
 									Email:
                                     <span itemProp="email" content="">
                                       
                                     </span>
                                  </a>
 				</div>
-				
-					
-                                <a className="bio-page__link" href="tel:(+234) 814-775-8121">
+                          <a className="ii" href="tel:(+234) 7059005104">
 									  Phone No. :  
-                                    <span itemProp="telephone" content="(+234) 814-775-8121">
-                                           (+234) 814-775-8121 <br /><span itemProp="telephone" content=" (+234) 7059005104">
-                                        (+234) 705-900-5104
-                                    </span>
+                                    <span itemProp="telephone" content=" (+234) 7059005104">
+                                        (+234) 7059005104
 									
                                     </span>
 									
 									
                                  </a>
         </figure>
+
+		<div>
 	<p className="details">	 
 	Igho is the managing partner of Grail Attorneys. 
 		</p>
@@ -58,7 +55,7 @@ const Partner1 = () => (
 		</p>
 		<p className="details">	 
 		He is an ardent believer in the Rule of law and protection of the Rights of citizens. 
-		He has given pro-bone services to help enforce the Fundamental Rights of citizens and decongestion of the correctional
+		He has given pro-bono services to help enforce the Fundamental Rights of citizens and decongestion of the correctional
 		 centres, and this has made the Nigeria Bar Association Umuahia Branch co-opt him into the Human Rights Committee,
 		</p>
 
@@ -66,6 +63,8 @@ const Partner1 = () => (
 		Igho has keen interest in self-development and have thus, 
 		taken steps to broaden his horizon via various professional courses. 
 		</p>
+
+		</div>
 
 	</div> 
 	

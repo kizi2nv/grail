@@ -1,39 +1,34 @@
 import React from 'react';
-import {Link} from 'gatsby'
 import Layout from '../../../components/Layout'
-import right from './3.png'
 import litigation from './2.jpg'
 
 
 
 const Partner1 = () => (
 <Layout>
-    <section className="part  ">
-     <div className="first">
-	 
-
-
-
-
-<figure className="k">
-                <img className="jp" alt="Attorney Tobi Igho" src={litigation}/>
+<section className="parti">
+     <div className="hey">
+	 <figure className="">
+                <img className="" alt="ANDREW NWANKWO" src={litigation}/>
 				<h4>ANDREW NWANKWO</h4>
-				<p> Associate Partner</p>
-				<div>
-				<a className="bio-page__link" href="gmail.com">
+				
+				<p  className="senior">  Associate Partner</p>
+				<div className="mail">
+				<a className="ii" href="gmail.com">
 									Email:
                                     <span itemProp="email" content="">
                                       
                                     </span>
                                  </a>
 				</div>
-                          <a className="bio-page__link" href="tel:(+234) 7067827647">
+                          <a className="ii" href="tel:(+234) 7067827647">
 								  Phone No.:
                                 <span itemProp="telephone" content="(+234) 7067827647">
                                        (+234) 7067827647
 							  </span>
 				       </a>
         </figure>
+		<div>
 	<p className="details">	
 	Andrew is an Associate Partner at Grail Attorneys.
 </p>
@@ -53,7 +48,7 @@ His insights are crucial in navigating legal complexities and ensuring robust ou
 </p>      
 	</div> 
 	
-		
+	</div>
 	
     </section>
 	</Layout>
