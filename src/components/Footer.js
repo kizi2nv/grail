@@ -1,6 +1,5 @@
 import React from 'react'
 import { Link } from 'gatsby'
-
 import logo from '../img/app.png'
 import facebook from '../img/social/facebook.svg'
 import instagram from '../img/social/instagram.svg'
@@ -21,8 +20,9 @@ const Footer = class extends React.Component {
 
           <div className="adi">
           <address>
-              <span itemProp="address" itemScope="" itemType="http://schema.org/PostalAddress">
-              <span itemProp="streetAddress">225 address St., Suite 2B</span><br/>
+              <span itemProp="address" itemScope="" itemType="">
+              <span itemProp="streetAddress">1st floor Nmabuiro/Akumere plaza Upstair line </span><br/>
+              <span itemProp="addressLocality">World Bank</span>,
               <span itemProp="addressLocality">Unuahia</span>,
               <span itemProp="addressRegion">Abia State </span>
               <span itemProp="postalCode"> P.O Box</span>
@@ -53,7 +53,7 @@ const Footer = class extends React.Component {
                       </Link>
                     </li>
                     <li>
-                      <Link className="navbar-item" to="/about">
+                      <Link className="navbar-item" to="/team/about_us/about_us">
                         About
                       </Link>
                     </li>
@@ -126,8 +126,8 @@ const Footer = class extends React.Component {
       <div class="zola">
           <div >
             <p >
-              ©&nbsp;2021 GrailAttorneys							| P: 
-              <a href="tel:(617) 208-0505">
+              ©&nbsp;2024 GrailAttorneys							| P: 
+              <a href="tel:(+234) 814-775-8121">
                 <span itemProp="telephone" content=" (+234) 814-775-8121"> (+234) 814-775-8121</span>
                 <br/>
                 Attorney Advertising&nbsp;|&nbsp;

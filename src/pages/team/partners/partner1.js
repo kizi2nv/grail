@@ -24,7 +24,7 @@ const Partner1 = () => (
                           <a className="ii" href="tel:(+234) 7059005104">
 									  Phone No. :  
                                     <span itemProp="telephone" content=" (+234) 7059005104">
-                                        (+234) 814-775-8121
+                                        (+234) 8147758121
 									
                                     </span>
 									
@@ -56,7 +56,7 @@ const Partner1 = () => (
 		<p className="details">	 
 		He is an ardent believer in the Rule of law and protection of the Rights of citizens. 
 		He has given pro-bono services to help enforce the Fundamental Rights of citizens and decongestion of the correctional
-		 centres, and this has made the Nigeria Bar Association Umuahia Branch co-opt him into the Human Rights Committee,
+		 centres, and this has made the Nigeria Bar Association Umuahia Branch co-opt him into the Human Rights Committee.
 		</p>
 
 		<p className="details">	 

@@ -22,7 +22,7 @@ import Welcome from '../components/home/welcome'
             <Homearea/>
             <Crime/> 
             <Describe/> 
-            <Carousel/> 
+           {/*<Carousel/>*/}
 			    </div>
 		    </article>
 	    </main>

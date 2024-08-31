@@ -112,7 +112,7 @@ const Partners = () => (
                         <img className="jpg" alt="Attorney Tobi Igho" src={intellectual}/>
                     </picture>
                 </figure>
-                <h4>  LUCKY JAMES.</h4>
+                <h4>  LUCKY JAMES</h4>
 				<p> Associate</p>
             <Link className="navbar-item" to="/team/partners/partner7">
                  Read more
