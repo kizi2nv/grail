@@ -27,7 +27,7 @@ export const BlogPostTemplate = ({
             </h1>
             <p>{description}</p>
             <PostContent content={content} />
-           : null}
+          
           </div>
         </div>
       </div>
