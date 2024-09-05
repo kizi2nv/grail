@@ -4,6 +4,7 @@ import logo from '../img/app.png'
 import facebook from '../img/social/facebook.svg'
 import instagram from '../img/social/instagram.svg'
 import twitter from '../img/social/twitter.svg'
+import x from '../img/social/x.svg'
 import './footer.scss'
 
 const Footer = class extends React.Component {
@@ -21,11 +22,10 @@ const Footer = class extends React.Component {
           <div className="adi">
           <address>
               <span itemProp="address" itemScope="" itemType="">
-              <span itemProp="streetAddress">1st floor Nmabuiro/Akumere plaza Upstair line </span><br/>
+              <span itemProp="streetAddress">1st floor Nmabuiro/Akumere Plaza Upstair line </span><br/>
               <span itemProp="addressLocality">World Bank</span>,
-              <span itemProp="addressLocality">Unuahia</span>,
+              <span itemProp="addressLocality">Umuahia</span>,
               <span itemProp="addressRegion">Abia State </span>
-              <span itemProp="postalCode"> P.O Box</span>
             </span>            
           </address>
           <p>
@@ -37,7 +37,9 @@ const Footer = class extends React.Component {
                   (+234) 814-775-8121
                   </span>
               </a><br/>
-              <a href="mailto:info@grailatorneys.com">info@grailatorneys.com</a>
+              <a href="mailto:info@grailattorneys.com">info@grailattorneys.com</a>
+              <br/>
+              <a href="mailto:grailattorneys@gmail.com">grailattorneys@gmail.com</a>
                           </p>
           </div>
             </div>
@@ -68,11 +70,12 @@ const Footer = class extends React.Component {
                       </Link>
                     </li>
                     */}
-                    <li>
+                     {/*<li>
                       <a className="navbar-item" href="/admin/" target="_blank" rel="noopener noreferrer">
                         Admin
                       </a>
                     </li>
+                     */}
                   </ul>
                 </section>
               </div>
@@ -82,12 +85,12 @@ const Footer = class extends React.Component {
                   <ul className="menu-list">
                     <li>
                       <Link className="navbar-item" to="/blog">
-                        Latest Stories
+                       Blogs
                       </Link>
                     </li>
                     <li>
                       <Link className="navbar-item" to="/contact">
-                        Contact
+                        Contact us
                       </Link>
                     </li>
                   </ul>
@@ -95,23 +98,24 @@ const Footer = class extends React.Component {
               </div>
               </div>
               <div className="social">
-                <a title="facebook" href="https://facebook.com">
+                <a title="facebook" href="https://facebook.com/profile.php?id=100095199010122&mibextid=JRoKGi">
                   <img
                     src={facebook}
                     alt="Facebook"
                     style={{ width: '1.2em', height: '1.2em' }}
                   />
                 </a>
-                <a title="twitter" href="https://twitter.com">
+              
+                <a title="twitter" href="https://x.com/grail_attorneys?s=11">
                   <img
                     className="fas fa-lg"
-                    src={twitter}
+                    src={x}
                     alt="Twitter"
                     style={{ width: '1.2em', height: '1.2em' }}
                   />
                 </a>
 
-                <a title="instagram" href="https://instagram.com">
+                <a title="instagram" href="https://instagram.com/grail_attorney?igsh=Y21tdGttdDhjMm5j">
                   <img
                     src={instagram}
                     alt="Instagram"
@@ -126,7 +130,7 @@ const Footer = class extends React.Component {
       <div class="zola">
           <div >
             <p >
-              ©&nbsp;2024 GrailAttorneys							| P: 
+              ©&nbsp;2024 GrailAttorneys							| Phone: 
               <a href="tel:(+234) 814-775-8121">
                 <span itemProp="telephone" content=" (+234) 814-775-8121"> (+234) 814-775-8121</span>
                 <br/>

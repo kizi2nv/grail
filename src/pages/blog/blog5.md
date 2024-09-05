@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-title: "UPDATES "
+title: "UPDATES: "
 date: 2023-04-20T15:04:10.000Z
 description: 	
 featuredpost: false

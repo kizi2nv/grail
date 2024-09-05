@@ -8,14 +8,14 @@ const Bloglinks = () => (
 					  <aside className="bio-page__sidebar">
 							  <div className="bio-page__sidebar-content">
 									<div className="sidebar__related-posts bio-page__sidebar-section">
-										<div className="h3 mb-3">Recent Posts</div>
+										<div className="h3 mb-3" href="/blog/">Recent Posts</div>
 											<ul className="nav flex-column">
 												<li className="nav-item">
 													<a className="nav-link" href="/blog/blog1/" rel="bookmark">	Grail Attorneys secures a discharge and acquittal in a high profile murder charge against an innocent citizen alleged to 
 													have killed his wife and daughter and there after incarcerated for ten (10) years: HOH/1C/2017 and HOH/3c/2017.</a>
 													</li>
 													<li className="nav-item">
-														<a className="nav-link" href="/blog/blog/" rel="bookmark">	Grail Attorneys advises Resonant Energy LTD. 
+														<a className="nav-link" href="/blog/blog2/" rel="bookmark">	Grail Attorneys advises Resonant Energy LTD. 
 														on a ₦150,000,000.00 (one hundred and fifty million naira) financing transaction and acquisition
 														 of licenses alongside the necessary haulage permit to aid ease of doing business</a>
 													</li>

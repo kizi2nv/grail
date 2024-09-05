@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-title: GRAIL WORKS
+title:  "UPDATES: "
 date: 2023-07-31T13:32:37.674Z
 description: 
 featuredpost: false

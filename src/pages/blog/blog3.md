@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-title: GRAIL ATTORNEYS STORIES
+title:  "UPDATES: "
 date: 2021-01-04T15:04:10.000Z
 description: 
 featuredpost: true
