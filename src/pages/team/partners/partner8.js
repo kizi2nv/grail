@@ -15,7 +15,7 @@ const Partner1 = () => (
 				<p  className="senior"> Associate</p>
 				<div className="mail">
 				<a className="ii" href="gmail.com">
-									Email:
+									Email: chideraelekwachi@gmail.com
                                     <span itemProp="email" content="">
                                       
                                     </span>
