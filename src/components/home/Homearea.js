@@ -26,7 +26,7 @@ const Homearea = () => (
             <h4>human right and criminal justice experts</h4>
             <p> Have you been arrested, charged with a crime or have your rights been infringed upon? 
                 
-                Our team is here to help guide your path to freedom and juistice if you seek Unparalleled advocacy and proven results.   </p>
+                Our team is here to help guide your path to freedom and justice if you seek Unparalleled advocacy and proven results.   </p>
               <Link className="navbar-item" to="/team/area/human/human">
                  Read more
               </Link>
