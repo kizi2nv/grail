@@ -43,7 +43,7 @@ const Areas = () => (
             <div className="theft a" >
                         <div className="-container">
                             <div className="">
-                            corperate and <br/>commercial law practice
+                            corporate and <br/>commercial law practice
                                                 
                             </div>
                             <Link className="navbar-item" to="/team/area/area">

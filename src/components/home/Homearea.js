@@ -53,7 +53,7 @@ const Homearea = () => (
                         <img className="jpg" alt="Attorney Tobi Igho" src={corporate}/>
                 
                 </figure>
-            <h4>corperate and commercial law practice</h4>
+            <h4>corporate and commercial law practice</h4>
             <p>We take pride in our innovative solution driven mindset aimed
                  at protecting 
                 the best interest of our clients in all Corporate/Commercial transaction.</p>

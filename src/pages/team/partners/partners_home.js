@@ -87,7 +87,7 @@ const Partners = () => (
         <figure className="0k">    
                         <img className="jpg" alt="Attorney Tobi Igho" src={corporate}/>
                 </figure>
-                <h4> RACHEAL TOBI (CIPM)</h4>
+                <h4> RACHAEL TOBI (CIPM)</h4>
 				<p> Human Resource Manager</p>
             <Link className="navbar-item" to="/team/partners/partner5">
                  Read more

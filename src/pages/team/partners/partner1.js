@@ -15,9 +15,8 @@ const Partner1 = () => (
 				<p  className="senior"> Managing Partner</p>
 				<div className="mail">
 				<a className="ii" href="gmail.com">
-									Email:grailattorneys@gmail.com
-                                    <span itemProp="email" content="">
-                                      
+									Email:tobi.igho@grailattorneys.com
+                                    <span itemProp="email" content="">     
                                     </span>
                                  </a>
 				</div>
@@ -36,7 +35,6 @@ const Partner1 = () => (
 	<p className="details">	 
 	Igho is the managing partner of Grail Attorneys. 
 		</p>
-
 		<p className="details">	 
 		Igho is a diligent and efficient lawyer with over a decade experience. 
 		He has distinguished himself and has shown proficiency in both contentious and 
@@ -44,14 +42,12 @@ const Partner1 = () => (
 		superior court judgments in their favour in highly contentious matters that span 
 		across all areas of his practice especially criminal litigation, civil litigation and petroleum industry litigation.
 		</p>
-
 		<p className="details">	
 		Igho has also advised the U.S department Home security, U.S Immigration
 		 service on the process and validity of dissolution of marriage under the
 		  Marriage Act in Nigeria. His non-contentious practice has also seen him give expert advisory services to
 		   multinationals and start-ups in the Energy industry as well as 
-		providing professional guidance on complex corporate and commercial transactions across all areas of his practice. 
-		
+		providing professional guidance on complex corporate and commercial transactions across all areas of his practice. 	
 		</p>
 		<p className="details">	 
 		He is an ardent believer in the Rule of law and protection of the Rights of citizens. 
