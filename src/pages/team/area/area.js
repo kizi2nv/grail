@@ -66,7 +66,7 @@ const Area = () => (
                         <img className="jpg" alt="Attorney Tobi Igho" src={corporate}/>
                 
                 </figure>
-            <h4>corperate and commercial law practice</h4>
+            <h4>corporate and commercial law practice</h4>
             <p>Grail Attorney’s corporate and commercial law department has over the years offered real 
 			time practical corporate and commercial advice to both 
 			multinational corporations and start-up 

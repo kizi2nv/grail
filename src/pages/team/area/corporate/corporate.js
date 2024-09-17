@@ -11,7 +11,7 @@ import './corporate.scss'
 const AboutUs = () => (
 	<Layout>
 		<Fade right>
-			<h1 className=" corp_head"> Corperate and commercial law practice</h1>
+			<h1 className=" corp_head"> Corporate and commercial law practice</h1>
 		</Fade >
 		<section className="content-block  ">
      <div id="content" className="site_co">
