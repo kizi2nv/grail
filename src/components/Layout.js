@@ -69,6 +69,7 @@ const TemplateWrapper = ({ children }) => {
         />
        <meta name="viewport" content="width=device-width, initial-scale=1" />
 
+<meta name="google-site-verification" content="bMJrUz17rlS7KxupVU711qqQ89AzsCcL9oU91iZGdQE" />
         <meta name="theme-color" content="#fff" />
         <meta name="twitter:card" content="grailattorneys.com igho tobi law firm umuahia" />
 
