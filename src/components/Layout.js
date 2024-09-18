@@ -7,7 +7,6 @@ import useSiteMetadata from './SiteMetadata'
 import { withPrefix } from 'gatsby'
 
 
-
 const TemplateWrapper = ({ children }) => {
   const { title, description } = useSiteMetadata()
   return (
@@ -16,6 +15,34 @@ const TemplateWrapper = ({ children }) => {
         <html lang="en" />
         <title>{title}</title>
         <meta name="description" content={description} />
+        <meta name="description" content="grailattorneys" />
+        <meta name="description" content="grailattorneys.com" />
+        <meta name="description" content="grailattorneys igho tobi" />
+        <meta name="description" content="grailattorneys umuahia law firm" />
+        <meta name="description" content="grailattorneys abia state" />
+
+        <link
+          rel="canonical"
+          sizes="180x180"
+          href="https://grailattorneys.com"
+        />
+
+<link
+          rel="canonical"
+          sizes="180x180"
+          href="http://grailattorneys.com"
+        />
+
+<link
+          rel="canonical"
+          sizes="180x180"
+          href="https://www.grailattorneys.com"
+        />
+         <link
+          rel="canonical"
+          sizes="180x180"
+          href="http://www.grailattorneys.com"
+        />
 
         <link
           rel="apple-touch-icon"
@@ -40,10 +67,14 @@ const TemplateWrapper = ({ children }) => {
           href={`${withPrefix('/')}img/safari-pinned-tab.svg`}
           color="#ff4400"
         />
-        <meta name="theme-color" content="#fff" />
+       <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-        <meta property="og:type" content="business.business" />
+        <meta name="theme-color" content="#fff" />
+        <meta name="twitter:card" content="grailattorneys.com igho tobi law firm umuahia" />
+
+        <meta property="og:type" content="grailattorneys.com abia law firm umuahia" />
         <meta property="og:title" content={title} />
+        <meta property="og:title"  content="grailattorneys.com" />
         <meta property="og:url" content="/" />
         <meta
           property="og:image"
