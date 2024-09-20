@@ -13,13 +13,13 @@ const TemplateWrapper = ({ children }) => {
     <div>
       <Helmet>
         <html lang="en" />
-        <title>{title}</title>
-        <meta name="description" content={description} />
+        <title>{"Grailattorneys"}</title>
         <meta name="description" content="grailattorneys" />
         <meta name="description" content="grailattorneys.com" />
         <meta name="description" content="grailattorneys igho tobi" />
         <meta name="description" content="grailattorneys umuahia law firm" />
         <meta name="description" content="grailattorneys abia state" />
+        <meta name="description" content={description} />
 
         <link
           rel="canonical"
@@ -69,12 +69,13 @@ const TemplateWrapper = ({ children }) => {
         />
        <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-<meta name="google-site-verification" content="bMJrUz17rlS7KxupVU711qqQ89AzsCcL9oU91iZGdQE" />
+        <meta name="google-site-verification" content="bMJrUz17rlS7KxupVU711qqQ89AzsCcL9oU91iZGdQE" />
+
         <meta name="theme-color" content="#fff" />
         <meta name="twitter:card" content="grailattorneys.com igho tobi law firm umuahia" />
 
         <meta property="og:type" content="grailattorneys.com abia law firm umuahia" />
-        <meta property="og:title" content={title} />
+        <meta property="og:title" content={"grailattorneys"} />
         <meta property="og:title"  content="grailattorneys.com" />
         <meta property="og:url" content="/" />
         <meta
