@@ -63,8 +63,7 @@ const Partners = () => (
         </div>
         <div className="litigation">
         <figure className="">                      
-                        <img className="jpg" alt="Attorney Tobi Igho" src={litigation }/>
-                   
+                        <img className="jpg" alt="Attorney Tobi Igho" src={litigation }/>                  
                 </figure>
 				<h4>ANDREW NWANKWO</h4>
 				<p> Associate Partner</p>

@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby + Netlify CMS Starter',
+    title: 'grailattorneys',
     description:
-      'This repo contains an example business website that is built with Gatsby, and Netlify CMS.It follows the JAMstack architecture by using Git as a single source of truth, and Netlify for continuous deployment, and CDN distribution.',
+      'Grail Attorneys is a full  service law firm serving a pool of both local and international clients with its office located in the south eastern part of Nigeria Umuahia, Abia State.',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
