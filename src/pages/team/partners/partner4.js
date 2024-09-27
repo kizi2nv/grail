@@ -35,12 +35,11 @@ const Partner1 = () => (
 		 </p>
 
 		 <p className="details">	
-		 He provides expert advisory services to clients and the entire firm on all intellectual property issues.
+		 Folmi provides expert advisory services to clients and the entire firm on all intellectual property issues.
 		 </p>
 
 		 <p className="details">
-		 Folmi is an encyclopaedia of intellectual property law. He has
-		  delivered conference papers and written journals both locally and internationally on intellectual property law.	
+		 Folmi has delivered conference papers and written journals both locally and internationally on intellectual property law.	
 		 </p>
 
 		 <p className="details">

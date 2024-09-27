@@ -1,5 +1,6 @@
 import React from 'react';
 import Layout from '../../../components/Layout'
+
 import AboutDetails from './About_components/About_details'
 import Bloglinks from './About_components/blog_links'
 
@@ -33,6 +34,7 @@ const AboutUs = () => (
            		 </div>
   					</div>
 		  	<AboutDetails/>
+			 
 			
 				  </div>
 				  </div>
