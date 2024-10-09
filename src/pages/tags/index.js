@@ -12,7 +12,7 @@ const TagsPage = ({
     },
   },
 }) => (
-  <Layout>
+   <Layout>
     <section className="section">
       <Helmet title={`Tags | ${title}`} />
       <div className="container content">
@@ -35,7 +35,7 @@ const TagsPage = ({
         </div>
       </div>
     </section>
-  </Layout>
+   </Layout>
 )
 
 export default TagsPage

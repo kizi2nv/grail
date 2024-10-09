@@ -3,7 +3,7 @@ import { Link } from 'gatsby'
 import logo from '../img/app.png'
 import facebook from '../img/social/facebook.svg'
 import instagram from '../img/social/instagram.svg'
-import twitter from '../img/social/twitter.svg'
+import linkedin from '../img/social/icons8-linkedin.svg'
 import x from '../img/social/x.svg'
 import './footer.scss'
 
@@ -111,6 +111,14 @@ const Footer = class extends React.Component {
                     className="fas fa-lg"
                     src={x}
                     alt="Twitter"
+                    style={{ width: '1.2em', height: '1.2em' }}
+                  />
+                </a>
+                <a title="twitter" href="https://www.linkedin.com/company/105122253/">
+                  <img
+                    className="fas fa-lg"
+                    src={linkedin}
+                    alt="linkedin"
                     style={{ width: '1.2em', height: '1.2em' }}
                   />
                 </a>

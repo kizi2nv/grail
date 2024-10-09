@@ -2,14 +2,13 @@
 templateKey: blog-post
 title:  "UPDATES: "
 date: 2024-01-20T15:04:10.000Z
-description: 
+description: GRAIL ATTORNEYS ADVISES RESONANT ENERGY LTD. ON A ₦150,000,000.00 (ONE HUNDRED AND FIFTY MILLION NAIRA) FINANCING TRANSACTION AND ACQUISITION OF LICENSES ALONGSIDE THE NECESSARY HAULAGE PERMIT TO AID EASE OF DOING BUSINESS.
 featuredpost: false
 featuredimage: /img/classy.jpg
 tags:
   
 ---
 	
-**GRAIL ATTORNEYS ADVISES RESONANT ENERGY LTD. ON A ₦150,000,000.00 (ONE HUNDRED AND FIFTY MILLION NAIRA) FINANCING TRANSACTION AND ACQUISITION OF LICENSES ALONGSIDE THE NECESSARY HAULAGE PERMIT TO AID EASE OF DOING BUSINESS.**
 
 Grail Attorneys team of corporate commercial lawyers in collaboration with the Energy law department played a crucial role as her expert advisory services aided the closure of the ₦150,000,000.00 (one hundred and fifty million naira) deal. All documents duly vetted and signed by all parties involved.
 

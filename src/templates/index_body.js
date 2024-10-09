@@ -1,6 +1,6 @@
 import React from 'react'
 
-import Carousel from '../components/home/carousel'
+// import Carousel from '../components/home/carousel'
 import Crime from '../components/home/crime'
 import Describe from '../components/home/describe'
 import '../components/home/home.css'

@@ -2,7 +2,8 @@ import React from 'react';
 import Layout from '../../../components/Layout'
 
 import AboutDetails from './About_components/About_details'
-import Bloglinks from './About_components/blog_links'
+// import Bloglinks from './About_components/blog_links'
+import BlogList from './../../../components/blog_list'
 
 import Fade from "react-reveal/Fade"
 
@@ -21,7 +22,7 @@ const AboutUs = () => (
       	<article id="post-1891" className="post-1891 team type-team status-publish has-post-thumbnail hentry alpha-m">
 		   <div className="container">
 			  <div className="row give">
-				 <Bloglinks/>
+				 {/* <Bloglinks/> */}
 				<div className="col-12 col-lg-7 offset-lg-1 content-area">
 				<div className="bio-page__entry-content entry-content">
 				<div className="breadcrumbs">
@@ -39,11 +40,12 @@ const AboutUs = () => (
 				  </div>
 				  </div>
 			  </div>
-		  </div>
+		  </div>	 
 
+	 <BlogList/> 
       </article>
 		</main>
-	</section>
+	</section>   
 </div>  
     </section>
 	</Layout>
