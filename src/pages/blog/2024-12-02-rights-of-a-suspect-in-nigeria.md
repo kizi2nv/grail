@@ -1,7 +1,7 @@
 ---
 templateKey: blog-post
 title: Rights of a Suspect in Nigeria
-date: 2024-11-13T13:16:56.597Z
+date: 2024-11-13T13:23:27.796Z
 description: "Under Nigerian law, a suspect is afforded extensive rights,
   grounded in the Constitution, statutes such as the Administration of Criminal
   Justice Act (ACJA) 2015, and international human rights instruments. These
