@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-title: "UPDATE:"
+title: "UPDATES:"
 date: 2024-11-13T13:23:00.000Z
 description: "Rights of a Suspect in Nigeria "
 featuredpost: true
