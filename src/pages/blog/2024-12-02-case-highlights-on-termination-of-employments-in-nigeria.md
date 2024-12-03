@@ -7,6 +7,8 @@ description: |+
 
 featuredpost: true
 featuredimage: /img/blue.jpg
+tags:
+  - "null"
 ---
 Termination of employment is a critical aspect of labour law in Nigeria that is governed by the contractual relationship between employer and employee. Courts have consistently delineated the boundaries of this relationship, emphasising adherence to contractual terms and the principle of reasonableness. Below, we explore this topic using notable cases to illustrate a few key principles.
 
