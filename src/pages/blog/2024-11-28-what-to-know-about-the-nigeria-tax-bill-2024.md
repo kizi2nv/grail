@@ -10,7 +10,7 @@ featuredimage: /img/screenshot-2024-11-28-104230.png
 tags:
   - law
 ---
-<!--StartFragment-->
+<!--Start
 
 Key reforms, incentives, and anti-avoidance measures shaping the future of taxation in Nigeria. 
 
@@ -24,4 +24,4 @@ The Nigeria Tax Bill, 2024 proposes significant reforms to consolidate and moder
 6. Value-Added Tax (VAT) Reforms: VAT applies to a broader range of taxable supplies, with adjustments to enforcement mechanisms and they are covered under Sections 142-148.
 7. Stronger Anti-Avoidance Measures: The Bill contains enhanced provisions for taxing artificial and related-party transactions at arm's length prices. Thus, If a tax authority determines that a disposition has not been implemented or that a transaction aimed at reducing tax liability is artificial or fictitious, it may disregard the disposition or transaction. The authority can also make adjustments to the tax liability as necessary to counteract the reduction and issue an appropriate assessment or additional assessment (Section 192).
 
-<!--EndFragment-->
+<!--End
