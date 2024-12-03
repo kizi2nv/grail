@@ -5,6 +5,8 @@ date: 2024-11-13T13:23:00.000Z
 description: "Rights of a Suspect in Nigeria "
 featuredpost: true
 featuredimage: /img/classy.jpg
+tags:
+  - "null"
 ---
 #### **1. Right to Dignity and Freedom from Torture**
 
