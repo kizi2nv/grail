@@ -1,14 +1,22 @@
 ---
 templateKey: blog-post
-title: Legal Framework Governing the Dissolution of Statutory Marriages in Nigeria
+title: "UPDATES:"
 date: 2024-12-01T09:04:56.771Z
-description: Marriage, a cornerstone of societal and familial relationships, is
-  governed by a robust legal framework in Nigeria.
+description: |+
+  
+  Legal Framework Governing the Dissolution of Statutory Marriages in Nigeria
+
 featuredpost: true
 featuredimage: /img/wesley-tingey-9z9fxr_7z-k-unsplash.jpg
 tags:
   - familylaw
 ---
+
+
+Marriage, a cornerstone of societal and familial relationships, is governed by a robust legal framework in Nigeria.
+
+
+
 The laws regulating the dissolution of marriage emphasize the sanctity of this union while acknowledging that irreparable breakdowns do occur. The **Matrimonial Causes Act (MCA), 2004**, alongside the **Marriage Act, 2004** and the **1999 Constitution of the Federal Republic of Nigeria (as amended)**, form the statutory backbone of matrimonial law. These laws establish grounds, procedures, and judicial guidelines to ensure fairness and justice in matrimonial disputes.
 
 At the heart of Nigeria’s legal framework for marriage dissolution lies the principle of **irretrievable breakdown**. *Section 15* of the Matrimonial Causes Act sets this as the sole ground for divorce. However, this breakdown must be proven by specific factual circumstances, such as adultery, cruelty, desertion, or prolonged separation. For instance, adultery alone is insufficient; the petitioner must also prove that cohabitation has become intolerable. This dual requirement balances the need to uphold marital fidelity with the subjective experiences of the aggrieved party. Cases like *Adelakun v. Adelakun* illustrate the court's emphasis on substantial evidence to support such claims.
