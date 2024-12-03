@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-title: "UPDATE:"
+title: "UPDATES:"
 date: 2024-11-06T09:43:02.465Z
 description: |+
   What to Know about The Nigeria Tax Bill, 2024 
